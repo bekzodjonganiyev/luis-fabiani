@@ -48,7 +48,7 @@ const add = () => service.addToCart(message)
     <div class="lf-container hidden pt-5 lg:block"><page-breadcrumbs :items="crumbs" /></div>
 
     <!-- Galereya + sotib olish -->
-    <div class="lg:lf-container grid grid-cols-1 lg:grid-cols-[7fr_5fr] lg:gap-x-14 lg:pt-6">
+    <div class="lf-container grid grid-cols-1 lg:grid-cols-[7fr_5fr] lg:gap-x-14 lg:pt-6">
       <product-gallery />
       <div class="px-4 pt-5 lg:px-0 lg:pt-0"><product-buy-panel /></div>
     </div>

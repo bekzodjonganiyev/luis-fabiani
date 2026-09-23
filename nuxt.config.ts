@@ -70,11 +70,11 @@ export default defineNuxtConfig({
       { code: "ru", language: "ru-RU", file: "ru.json", name: "RU" },
       { code: "en", language: "en-US", file: "en.json", name: "EN" }
     ],
-    detectBrowserLanguage: {
-      useCookie: true,
-      cookieKey: "lf_locale",
-      redirectOn: "root"
-    }
+    // detectBrowserLanguage: {
+    //   useCookie: true,
+    //   cookieKey: "lf_locale",
+    //   redirectOn: "root"
+    // }
   },
 
   vite: {
