@@ -1,0 +1,5 @@
+export { default as CheckoutContact } from "./checkout-contact.vue"
+export { default as CheckoutDelivery } from "./checkout-delivery.vue"
+export { default as CheckoutPayment } from "./checkout-payment.vue"
+export { default as CheckoutSummary } from "./checkout-summary.vue"
+export { default as CheckoutStepHead } from "./checkout-step-head.vue"

@@ -1,0 +1,143 @@
+html {
+  scrollbar-gutter: stable;
+}
+
+body {
+  margin: 0;
+  font-family: var(--lf-font-ui);
+  color: var(--lf-text);
+  background: var(--lf-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-width: 0;
+}
+
+.serif {
+  font-family: var(--lf-font-display);
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Fokus halqasi — hamma interaktiv elementlar uchun ko'rinadigan */
+:where(a, button, input, select, textarea, [tabindex]):focus-visible {
+  outline: 2px solid var(--lf-brand);
+  outline-offset: 2px;
+}
+
+/* 12 ustun, 1320px max, 60px chetki maydon (1440 artboard) */
+.lf-container {
+  width: 100%;
+  max-width: calc(var(--lf-max) + 120px);
+  margin-inline: auto;
+  padding-inline: 16px;
+}
+@media (min-width: 768px) {
+  .lf-container {
+    padding-inline: 32px;
+  }
+}
+@media (min-width: 1280px) {
+  .lf-container {
+    padding-inline: 60px;
+  }
+}
+
+/* Rasm joyi: hech qachon oq bo'shliq qolmaydi (photo-bg) */
+.ph {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  background-color: var(--lf-photo-bg);
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--lf-radius);
+}
+.ph-leather {
+  background-image: radial-gradient(120% 90% at 30% 20%, #5c4132 0%, var(--lf-dark) 55%, #241a14 100%);
+}
+/* Fotografga topshiriq yorlig'i — faqat dev rejimida ko'rinadi (html[data-photo-captions]) */
+.ph-cap {
+  display: none;
+  position: absolute;
+  left: 14px;
+  bottom: 12px;
+  font: 500 11px/1 var(--lf-font-ui);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--lf-muted);
+  padding: 6px 8px;
+  background: color-mix(in srgb, var(--lf-bg) 82%, transparent);
+  border-radius: 2px;
+  pointer-events: none;
+}
+html[data-photo-captions] .ph-cap {
+  display: inline-block;
+}
+.ph-dark .ph-cap {
+  color: var(--lf-on-dark);
+  background: var(--lf-overlay);
+}
+
+/* Tikuv chizig'i — faqat hero ostida va futerda */
+.stitch {
+  border-top: 1px dashed color-mix(in srgb, var(--lf-accent) 60%, transparent);
+}
+
+/* Yorliq: 11–12px, uppercase, .1em */
+.lf-label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--lf-accent-text);
+}
+
+/* Matn havolasi (ostki chiziqli) */
+.lf-link {
+  font-weight: 600;
+  color: var(--lf-text);
+  border-bottom: 1px solid var(--lf-text);
+  padding-bottom: 2px;
+  transition: color var(--lf-ease), border-color var(--lf-ease);
+}
+.lf-link:hover {
+  color: var(--lf-accent-text);
+  border-color: var(--lf-accent-text);
+}
+.lf-link-accent {
+  font-weight: 600;
+  color: var(--lf-accent-text);
+  border-bottom: 1px solid color-mix(in srgb, var(--lf-accent-text) 50%, transparent);
+}
+
+/* Gorizontal chip qatori — mobil */
+.lf-scroll-x {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+.lf-scroll-x::-webkit-scrollbar {
+  display: none;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.18s ease-out;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}

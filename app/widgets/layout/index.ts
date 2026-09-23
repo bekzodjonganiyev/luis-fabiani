@@ -1,0 +1,7 @@
+export { default as LandingHeader } from "./landing-header.vue"
+export { default as LandingFooter } from "./landing-footer.vue"
+export { default as Megamenu } from "./megamenu.vue"
+export { default as MobileNav } from "./mobile-nav.vue"
+export { default as TelegramFab } from "./telegram-fab.vue"
+export { default as PaletteSwitcher } from "./palette-switcher.vue"
+export { default as LangSwitcher } from "./lang-switcher.vue"

@@ -1,0 +1,46 @@
+/* NaiveUI ustidan dizaynga moslash — themeOverrides yetmagan joylar */
+.n-input .n-input__input-el,
+.n-input .n-input__textarea-el,
+.n-base-selection .n-base-selection-label {
+  font-family: var(--lf-font-ui);
+}
+
+.n-drawer .n-drawer-body-content-wrapper {
+  padding: 0 !important;
+}
+
+.n-collapse .n-collapse-item .n-collapse-item__header .n-collapse-item__header-main {
+  font-weight: 600;
+  font-size: 15px;
+  padding: 18px 0;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.n-collapse .n-collapse-item .n-collapse-item__header .n-collapse-item-arrow {
+  margin: 0 !important;
+}
+.n-collapse .n-collapse-item .n-collapse-item__content-inner {
+  padding-top: 0 !important;
+  padding-bottom: 22px;
+}
+.n-collapse .n-collapse-item {
+  margin: 0 !important;
+  border-top: 1px solid var(--lf-line) !important;
+}
+.n-collapse .n-collapse-item:last-child {
+  border-bottom: 1px solid var(--lf-line);
+}
+
+.n-message {
+  font-family: var(--lf-font-ui);
+}
+
+.n-pagination .n-pagination-item {
+  font-weight: 600;
+}
+
+.n-radio .n-radio__label,
+.n-checkbox .n-checkbox__label {
+  font-family: var(--lf-font-ui);
+  font-weight: 500;
+}

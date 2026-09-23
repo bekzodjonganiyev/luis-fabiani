@@ -1,0 +1,43 @@
+/* page1-forest-cream */
+:root[data-palette="page1-forest-cream"] {
+  --lf-brand: #274A3B;
+  --lf-brand-hover: #1B3529;
+  --lf-cream: #E8E0CB;
+  --lf-cream-line: #D9D2BF;
+  --lf-bg: #F5F1E6;
+  --lf-card: #FFFFFF;
+  --lf-line: #D9D2BF;
+  --lf-text: #14231C;
+  --lf-muted: #5A655C;
+  --lf-muted-2: #7E8781;
+  --lf-gold: #E4C169;
+  --lf-gold-text: #8C6D24;
+  --lf-lime: #DFEF87;
+  --lf-success: #2E6B4F;
+  --lf-sale: #A33A2B;
+  --lf-on-dark: #F5F1E6;
+  --lf-on-dark-muted: #B9C4B4;
+  --lf-photo-bg: #EAE4D3;
+}
+
+/* page2-soft-sage */
+:root[data-palette="page2-soft-sage"] {
+  --lf-brand: #4E6E56;
+  --lf-brand-hover: #3F5B46;
+  --lf-surface: #58795F;
+  --lf-pastel: #E2EFD3;
+  --lf-pastel-line: #CFDAC6;
+  --lf-bg: #F4F3EE;
+  --lf-card: #FFFFFF;
+  --lf-line: #CFDAC6;
+  --lf-text: #1F2A22;
+  --lf-muted: #5F6B62;
+  --lf-muted-2: #7F8A83;
+  --lf-success: #4E6E56;
+  --lf-sale: #B5645A;
+  --lf-on-dark: #F4F3EE;
+  --lf-on-dark-muted: #CFDACF;
+  --lf-photo-bg: #EDEFE8;
+}
+
+:root { --lf-font-display: 'Cormorant Garamond', Georgia, serif; --lf-font-ui: Manrope, system-ui, sans-serif; --lf-radius-1: 2px; --lf-radius-2: 10px; --lf-max: 1320px; --lf-gutter: 24px; --lf-ease: 180ms ease-out; }

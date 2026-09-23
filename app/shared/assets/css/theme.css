@@ -1,0 +1,83 @@
+/*
+ * Semantik qatlam. tokens/tokens.css dagi xom palitra ranglaridan komponentlar uchun
+ * ma'noli o'zgaruvchilar yasaladi. Komponentlar faqat shu semantik nomlarni ishlatadi.
+ */
+
+/* Page 1 — Forest + Cream */
+:root[data-palette="page1-forest-cream"] {
+  --lf-dark: var(--lf-brand);              /* hero, biznes, modal yon paneli */
+  --lf-soft: var(--lf-cream);              /* futer, ustaxona, checkout xulosasi */
+  --lf-soft-hover: var(--lf-photo-bg);     /* ikonka tugma hover */
+  --lf-accent: var(--lf-gold);             /* to'q fondagi urg'u (№, kursiv, tugma) */
+  --lf-accent-text: var(--lf-gold-text);   /* ochiq fondagi oltin matn */
+  --lf-badge-new: var(--lf-lime);
+  --lf-badge-new-text: var(--lf-text);
+  --lf-on-dark-body: #cfd8c9;              /* to'q fondagi abzas matni */
+  --lf-selected-bg: #efeadb;               /* tanlangan radio-karta / jadval qatori */
+  --lf-size-off: var(--lf-on-dark-muted);
+  --lf-overlay: rgba(20, 40, 30, 0.55);
+  --lf-shadow: rgba(20, 40, 30, 0.2);
+
+  --lf-radius: 2px;
+  --lf-radius-btn: 4px;
+  --lf-radius-badge: 2px;
+  --lf-radius-lg: 12px;
+}
+
+/* Page 2 — Soft Sage */
+:root[data-palette="page2-soft-sage"] {
+  --lf-dark: var(--lf-surface);
+  --lf-soft: var(--lf-pastel);
+  --lf-soft-hover: var(--lf-photo-bg);
+  --lf-accent: var(--lf-pastel);
+  --lf-accent-text: var(--lf-brand);
+  --lf-badge-new: var(--lf-pastel);
+  --lf-badge-new-text: var(--lf-text);
+  --lf-on-dark-body: #d6e0d3;
+  --lf-selected-bg: #edf3e6;
+  --lf-size-off: var(--lf-on-dark-muted);
+  --lf-overlay: rgba(31, 42, 34, 0.55);
+  --lf-shadow: rgba(31, 42, 34, 0.2);
+
+  --lf-radius: 10px;
+  --lf-radius-btn: 10px;
+  --lf-radius-badge: 6px;
+  --lf-radius-lg: 12px;
+}
+
+/* data-palette bo'lmasa (masalan, birinchi render) — Page 1 */
+:root:not([data-palette]) {
+  --lf-brand: #274a3b;
+  --lf-brand-hover: #1b3529;
+  --lf-cream: #e8e0cb;
+  --lf-bg: #f5f1e6;
+  --lf-card: #ffffff;
+  --lf-line: #d9d2bf;
+  --lf-text: #14231c;
+  --lf-muted: #5a655c;
+  --lf-muted-2: #7e8781;
+  --lf-gold: #e4c169;
+  --lf-gold-text: #8c6d24;
+  --lf-lime: #dfef87;
+  --lf-success: #2e6b4f;
+  --lf-sale: #a33a2b;
+  --lf-on-dark: #f5f1e6;
+  --lf-on-dark-muted: #b9c4b4;
+  --lf-photo-bg: #eae4d3;
+  --lf-dark: var(--lf-brand);
+  --lf-soft: var(--lf-cream);
+  --lf-soft-hover: var(--lf-photo-bg);
+  --lf-accent: var(--lf-gold);
+  --lf-accent-text: var(--lf-gold-text);
+  --lf-badge-new: var(--lf-lime);
+  --lf-badge-new-text: var(--lf-text);
+  --lf-on-dark-body: #cfd8c9;
+  --lf-selected-bg: #efeadb;
+  --lf-size-off: var(--lf-on-dark-muted);
+  --lf-overlay: rgba(20, 40, 30, 0.55);
+  --lf-shadow: rgba(20, 40, 30, 0.2);
+  --lf-radius: 2px;
+  --lf-radius-btn: 4px;
+  --lf-radius-badge: 2px;
+  --lf-radius-lg: 12px;
+}
