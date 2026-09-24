@@ -3,7 +3,7 @@ import type { NuxtError } from "#app"
 
 defineProps<{ error: NuxtError }>()
 const { t } = useI18n()
-useHead({ title: t("errors.title") })
+useHead({ title: () => t("errors.title") })
 </script>
 
 <template>

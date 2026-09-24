@@ -16,7 +16,7 @@ import { useProductApi } from "@/modules/product"
 const { t } = useI18n()
 const api = useProductApi()
 
-useHead({ title: t("home.title") })
+useHead({ title: () => t("home.title") })
 
 const { data } = await useAsyncData("home-products", () => api.getProducts({ per_page: 24 }))
 const all = computed(() => data.value?.data || [])

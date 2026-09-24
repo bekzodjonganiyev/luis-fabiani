@@ -3,9 +3,12 @@ import { NConfigProvider, NMessageProvider } from "naive-ui"
 
 const { palette } = usePalette()
 const { overrides } = useNaiveTheme()
-const { locale } = useI18n()
+const { t, locale } = useI18n()
 
 useHead({
+  // Standart sarlavha tilga bog'liq — nuxt.config da emas, shu yerda
+  title: () => t("home.title"),
+  titleTemplate: (title) => (title ? `${title} | Luis Fabiani` : "Luis Fabiani"),
   htmlAttrs: {
     "lang": () => locale.value,
     "data-palette": () => palette.value,

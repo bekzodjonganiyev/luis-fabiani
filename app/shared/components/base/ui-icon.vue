@@ -29,6 +29,8 @@ export type IconName =
   | "zoom"
   | "minus"
   | "plus"
+  | "instagram"
+  | "youtube"
 
 const stroked: Record<string, string> = {
   "search": '<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>',
@@ -47,7 +49,10 @@ const stroked: Record<string, string> = {
     '<path d="M3 7h11v9H3zM14 10h4l3 3v3h-7z"/><circle cx="7" cy="18" r="1.6"/><circle cx="17" cy="18" r="1.6"/>',
   "zoom": '<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5M11 8v6M8 11h6"/>',
   "minus": '<path d="M5 12h14"/>',
-  "plus": '<path d="M12 5v14M5 12h14"/>'
+  "plus": '<path d="M12 5v14M5 12h14"/>',
+  "instagram": '<rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".6"/>',
+  "youtube":
+    '<path d="M21 8.2a2.8 2.8 0 0 0-2-2C17.3 5.8 12 5.8 12 5.8s-5.3 0-7 .4a2.8 2.8 0 0 0-2 2C2.6 9.9 2.6 12 2.6 12s0 2.1.4 3.8a2.8 2.8 0 0 0 2 2c1.7.4 7 .4 7 .4s5.3 0 7-.4a2.8 2.8 0 0 0 2-2c.4-1.7.4-3.8.4-3.8s0-2.1-.4-3.8z"/><path d="m10 9.2 5 2.8-5 2.8z"/>'
 }
 
 const filled: Record<string, string> = {

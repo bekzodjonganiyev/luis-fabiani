@@ -16,7 +16,7 @@ const store = useCatalogStore()
 const service = useCatalogService()
 const layout = useLayoutStore()
 
-useHead({ title: t("catalog.title") })
+useHead({ title: () => t("catalog.title") })
 
 service.syncFromRoute()
 const { refresh } = await useAsyncData("catalog", () => service.fetchList(), {

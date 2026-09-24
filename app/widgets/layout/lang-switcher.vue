@@ -1,5 +1,5 @@
 <script setup lang="ts">
-/** UZ / RU / EN — utilita bandida. RU/EN tarjimalari keyin; hozircha uz ga fallback. */
+/** UZ / RU / EN — utilita bandida. Tarjimasi yo'q kalit uz ga fallback qiladi. */
 const { locale, locales, setLocale } = useI18n()
 </script>
 

@@ -12,7 +12,7 @@ const { t } = useI18n()
 const store = useCheckoutStore()
 const cart = useCartStore()
 
-useHead({ title: t("checkout.title") })
+useHead({ title: () => t("checkout.title") })
 onBeforeUnmount(() => store.order && store.reset())
 </script>
 

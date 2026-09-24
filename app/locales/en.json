@@ -1,3 +1,1075 @@
 {
-  "_note": "EN translation comes later. Keys mirror uz.json; missing keys fall back to uz."
+  "common": {
+    "sum": "UZS",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "prev": "Previous",
+    "clear": "Clear",
+    "apply": "Apply",
+    "add": "Add",
+    "remove": "Remove",
+    "change": "Change",
+    "show_all": "View all",
+    "all": "All",
+    "free": "free",
+    "tomorrow": "tomorrow",
+    "days_2_4": "2–4 days",
+    "in_stock": "In stock",
+    "out_of_stock": "Out of stock",
+    "waiting": "Coming soon",
+    "notify_me": "Notify me when available",
+    "available": "Available",
+    "unavailable_notify": "Sold out — notify me",
+    "selected": "selected",
+    "pieces": "{n} pcs",
+    "sizes_range": "Sizes: 39–46",
+    "eu": "EU",
+    "write_telegram": "Message us on Telegram",
+    "order_telegram": "Order via Telegram",
+    "photo": "Photo",
+    "video": "Video",
+    "loading": "Loading...",
+    "nasiya_line": "Uzum Nasiya: {installment}, 0% interest",
+    "nasiya_installment": "3 × {n} UZS",
+    "made_in": "Tashkent, Uzbekistan"
+  },
+  "placeholders": {
+    "phone": "+998 [NUMBER]",
+    "number": "[NUMBER]",
+    "price": "[PRICE]",
+    "total": "[TOTAL]",
+    "sum": "[AMOUNT]",
+    "name": "[Name]",
+    "full_name": "[Full name]",
+    "address_store": "[Address — store]",
+    "address_workshop": "[Address — workshop]",
+    "cm": "[cm]",
+    "model_no": "[number]",
+    "review_text": "[Customer review — from the Telegram channel, unedited]",
+    "reviews_count": "[N] reviews",
+    "description": "[Product description — 60–100 words. Leather type, sole, intended occasion. Workshop story: share of handwork.]",
+    "sole": "[Leather / Rubber]",
+    "heel": "[NUMBER] cm",
+    "stand": "[NUMBER]",
+    "station": "[Station]",
+    "year": "[YEAR]",
+    "list": "[LIST]",
+    "regions_price": "[PRICE] UZS"
+  },
+  "promo": {
+    "band": "0% interest with Uzum Nasiya — pay in 3 monthly instalments",
+    "band_short": "Uzum Nasiya: 0% interest, 3 months ·",
+    "more": "Learn more"
+  },
+  "utility": {
+    "track": "Track order",
+    "stores": "Stores"
+  },
+  "nav": {
+    "home": "Home",
+    "catalog": "Catalogue",
+    "collections": "Collections",
+    "brand": "Brand",
+    "business": "Business",
+    "help": "Help",
+    "menu": "Menu",
+    "main": "Main menu",
+    "search": "Search",
+    "search_placeholder": "Model, number or style",
+    "wishlist": "Wishlist",
+    "cart": "Cart",
+    "cart_count": "Cart, {n} items",
+    "logo_alt": "Luis Fabiani",
+    "logo_aria": "Luis Fabiani — home",
+    "language": "Language",
+    "breadcrumb": "Breadcrumb"
+  },
+  "mega": {
+    "style": "Style",
+    "occasion": "Occasion",
+    "accessories": "Accessories",
+    "by_size": "By size",
+    "my_size": "What's my size?",
+    "by_color": "By colour",
+    "material": "Material",
+    "status": "Highlights",
+    "all_models": "All models",
+    "loafer_moccasin": "Loafers & moccasins",
+    "chelsea_boots": "Chelsea & boots",
+    "sneaker": "Leather sneakers",
+    "belts": "Belts",
+    "creams": "Care creams",
+    "laces": "Laces & insoles",
+    "new_arrivals": "New arrivals",
+    "bestsellers": "Bestsellers",
+    "sales": "Sale",
+    "featured_nasiya": "Nasiya 3 × {n}"
+  },
+  "types": {
+    "oksford": "Oxford",
+    "derbi": "Derby",
+    "loafer": "Loafer",
+    "monk": "Monk strap",
+    "brogi": "Brogue",
+    "chelsi": "Chelsea",
+    "sneaker": "Leather sneaker"
+  },
+  "categories": {
+    "classic": "Classic",
+    "casual": "Casual",
+    "boots": "Boots",
+    "formal": "Formal",
+    "care": "Care",
+    "accessory": "Accessories"
+  },
+  "materials": {
+    "leather": "Genuine leather",
+    "suede": "Suede",
+    "nubuck": "Nubuck",
+    "patent": "Patent leather"
+  },
+  "colors": {
+    "black": "Black",
+    "brown": "Brown",
+    "cognac": "Cognac",
+    "navy": "Navy",
+    "white": "White"
+  },
+  "occasions": {
+    "office": "Office",
+    "wedding": "Weddings & events",
+    "casual": "Everyday",
+    "winter": "Winter"
+  },
+  "fits": {
+    "narrow": "Narrow",
+    "standard": "Standard",
+    "wide": "Wide"
+  },
+  "badges": {
+    "new": "New",
+    "sale": "Sale",
+    "bestseller": "Bestseller",
+    "waiting": "Coming soon",
+    "dark": "New"
+  },
+  "views": {
+    "three_quarter": "3/4 view",
+    "profile": "Profile",
+    "top": "Top view",
+    "sole": "Sole",
+    "macro": "Leather close-up",
+    "on_foot": "On foot"
+  },
+  "home": {
+    "title": "Home",
+    "hero_title": "Handmade leather shoes.",
+    "hero_title_em": "From our Tashkent workshop — straight to you.",
+    "hero_text": "For 15 years we have been making classic men's shoes from 100% genuine leather. No middlemen — so you buy at workshop prices.",
+    "hero_text_short": "15 years of shoes in 100% genuine leather. No middlemen — workshop prices.",
+    "hero_cta": "Shop the collection",
+    "hero_cta_2": "Our workshop",
+    "hero_fact_1": "15-year workshop",
+    "hero_fact_2": "100% genuine leather",
+    "hero_fact_3": "From 525 000 UZS",
+    "hero_photo": "Photo · Craftsman's hands cutting leather (close-up)",
+    "hero_photo_short": "Photo · Craftsman's hands, close-up",
+    "hero_model": "Model",
+    "hero_model_line": "Oxford · 525 000 UZS",
+    "trust_1": "100% genuine leather",
+    "trust_2": "Direct from the maker",
+    "trust_3": "Free delivery across Tashkent",
+    "trust_3_short": "Free delivery in Tashkent",
+    "trust_4": "Exchange within 14 days",
+    "trust_4_short": "14-day exchange",
+    "trust_5": "Payme · Click · Uzum Nasiya",
+    "occasions_title": "What's the occasion?",
+    "occasions_text": "Choose by occasion — we've put together models for every one.",
+    "occasion_office_photo": "Photo · Oxford with suit trousers",
+    "occasion_wedding_photo": "Photo · Patent Oxford",
+    "occasion_casual_photo": "Photo · Loafer with jeans",
+    "occasion_winter_photo": "Photo · Chelsea boot in snow",
+    "new_title": "New collection",
+    "new_sub": "Autumn — Winter 2026. Fresh from the workshop.",
+    "workshop_title": "Every pair —",
+    "workshop_title_em": "from one craftsman's hands.",
+    "workshop_text": "From last to quality check, every step happens in our Tashkent workshop. We select, cut and stitch the leather ourselves.",
+    "workshop_video": "Video · Workshop, 60–90 seconds (from the YouTube archive)",
+    "workshop_video_short": "Video · Workshop, 60 s",
+    "workshop_play": "Watch the video",
+    "workshop_cta": "See the workshop",
+    "steps": [
+      {
+        "title": "Design",
+        "text": "Model drawing and pattern measurements"
+      },
+      {
+        "title": "Last",
+        "text": "A separate one for every size and width"
+      },
+      {
+        "title": "Cutting",
+        "text": "From the smoothest part of the hide"
+      },
+      {
+        "title": "Lasting",
+        "text": "The upper is pulled over the last"
+      },
+      {
+        "title": "Stitching",
+        "text": "Sole and upper joined by hand"
+      },
+      {
+        "title": "Quality check",
+        "text": "Every pair inspected individually"
+      }
+    ],
+    "bestsellers_title": "Bestsellers",
+    "bestsellers_note": "Based on 500+ customer reviews on our Telegram channel.",
+    "styles_title": "Shop by style",
+    "styles": [
+      {
+        "type": "oksford",
+        "text": "Closed lacing, the most formal model. For the office and special occasions."
+      },
+      {
+        "type": "derbi",
+        "text": "Open lacing, a roomier fit. Right for every day."
+      },
+      {
+        "type": "loafer",
+        "text": "Laceless and easy to slip on. For summer and autumn."
+      },
+      {
+        "type": "chelsi",
+        "text": "Boot with elastic sides. For cold days."
+      }
+    ],
+    "reviews_title": "What customers",
+    "reviews_title_2": "say",
+    "reviews_title_mobile": "What customers say",
+    "reviews_text": "All reviews are taken unedited from our Telegram channel.",
+    "reviews_cta": "Read 500+ reviews",
+    "business_title": "Work directly with the maker",
+    "business_text": "Dedicated terms for wholesale buyers, dealers and international partners. Price list available on request.",
+    "business_text_mobile": "Wholesale · Dealership · Private label manufacturing",
+    "business_cta": "Get an offer",
+    "business_cta_2": "Price list (PDF)",
+    "business_micam": "Find us at {brand} — September 2026, stand {stand}",
+    "business_micam_mobile": "MICAM Milano, September 2026 — stand {stand}",
+    "business_items": [
+      {
+        "title": "Wholesale",
+        "text": "Terms, minimum order, lead times",
+        "to": "/business#wholesale"
+      },
+      {
+        "title": "Dealership",
+        "text": "Open a store in the regions or neighbouring countries",
+        "to": "/business#dealers"
+      },
+      {
+        "title": "Private label",
+        "text": "Manufacturing for international partners (EN)",
+        "to": "/business#private-label"
+      }
+    ],
+    "subscribe_title": "Be the first to hear about the new collection",
+    "subscribe_text": "5% off your first order. Updates come via Telegram or SMS.",
+    "subscribe_text_short": "5% off your first order.",
+    "subscribe_label": "Your phone number",
+    "subscribe_cta": "Subscribe",
+    "subscribe_done": "Thank you! You'll be the first to hear about the new collection.",
+    "subscribe_error": "Please enter your full phone number"
+  },
+  "catalog": {
+    "title": "Classic men's shoes",
+    "count": "{n} products",
+    "count_short": "{n}",
+    "intro": "The Oxford — the most formal classic, with lacing stitched under the vamp. For the office and formal events. Derby and Monk strap are softer options that also work every day.",
+    "intro_short": "The Oxford — the most formal classic. For the office and special occasions.",
+    "crumb_classic": "Classic",
+    "sort": "Sort",
+    "sort_options": {
+      "popular": "Popular",
+      "new": "New arrivals",
+      "price_asc": "Price: low to high",
+      "price_desc": "Price: high to low",
+      "sale": "Biggest discount"
+    },
+    "filters": "Filters",
+    "filter": "Filter",
+    "f_type": "Type",
+    "f_size": "Size",
+    "f_fit": "Width",
+    "f_fit_hint": "Not sure? Choose Standard. If your feet are wide, choose Wide.",
+    "f_color": "Colour",
+    "f_material": "Material",
+    "f_price": "Price",
+    "f_price_from": "From",
+    "f_price_to": "To",
+    "f_more": "Sole · Season · Highlights",
+    "f_badge": "Highlights",
+    "f_occasion": "Season & occasion",
+    "shown": "Showing {shown} of {total}",
+    "show_n": "Show {n} products",
+    "load_more": "Show more",
+    "pages": "Pages",
+    "empty_title": "No models match these filters",
+    "empty_text": "Clear the filters and try again.",
+    "add_to_wishlist": "Add to wishlist",
+    "remove_from_wishlist": "Remove from wishlist",
+    "search_results": "Results for «{q}»",
+    "wishlist_title": "Wishlist"
+  },
+  "product": {
+    "crumb_classic": "Classic",
+    "subtitle": "{category} · {material} · Made in Tashkent",
+    "reviews_count": "[N] reviews",
+    "color": "Colour:",
+    "size": "Size:",
+    "size_eu": "{n} EU",
+    "size_unselected": "select",
+    "my_size": "What's my size?",
+    "fit_note": "This model has a standard width. Choose your usual size; if your feet are wide, check the chart in the Help section.",
+    "fit_note_short": "Standard width. Choose your usual size.",
+    "add_to_cart": "Add to cart — {price}",
+    "add_to_cart_short": "Add — {price}",
+    "choose_size_first": "Please choose a size first",
+    "added_toast": "{name} added to cart",
+    "added_toast_cart": "Cart",
+    "delivery_tashkent": "Tashkent",
+    "delivery_regions": "Regions",
+    "delivery_choose_region": "Choose region",
+    "guarantee_1": "14-day returns",
+    "guarantee_2": "Free exchange",
+    "guarantee_3": "Genuine leather guarantee",
+    "acc_description": "Description",
+    "acc_care": "Care",
+    "acc_delivery": "Delivery & returns",
+    "care_text": "[Care recommendations — from client]",
+    "delivery_text": "Courier across Tashkent — tomorrow, free. Regions: 2–4 days. Returns and free exchange within 14 days.",
+    "spec_upper": "Upper",
+    "spec_lining": "Lining",
+    "spec_sole": "Sole",
+    "spec_heel": "Heel",
+    "spec_fit": "Width",
+    "spec_made": "Made in",
+    "spec_upper_value": "100% genuine leather",
+    "spec_lining_value": "Genuine leather",
+    "addons_title": "Goes well with",
+    "similar_title": "Similar models",
+    "similar_all": "All classic models",
+    "zoom": "Zoom",
+    "photo_caption": "Photo · {name} № {no}, {color}, 3/4 view",
+    "photo_caption_short": "Photo · {name} № {no}, {color}",
+    "gallery": "Gallery",
+    "of": "{i} / {n}",
+    "not_found": "Product not found"
+  },
+  "addons": {
+    "cream_black": "Leather cream, black",
+    "cream_black_sub": "Care · 50 ml",
+    "belt_673": "Leather belt, matches 673-1",
+    "laces": "Spare laces, 2 pairs"
+  },
+  "size_modal": {
+    "title": "Measure your foot",
+    "title_em": "in 3 steps",
+    "title_end": "at home",
+    "steps": [
+      "Place a sheet of white paper on the floor and stand on it in socks. Keep your weight on both feet.",
+      "Mark your heel and the tip of your longest toe with a pencil. Measure the distance in centimetres.",
+      "Measure both feet and use the larger one. Find the matching EU size in the chart."
+    ],
+    "photo": "Image · measuring a foot on paper",
+    "eyebrow": "{name} № {no} · standard width",
+    "table_title": "Size chart",
+    "cm": "Centimetres",
+    "inch": "Inches",
+    "col_eu": "EU",
+    "col_length_cm": "Foot length, cm",
+    "col_length_in": "Foot length, in",
+    "col_stock": "In stock",
+    "available_selected": "Available · selected",
+    "note": "The chart is refined against our workshop lasts. Between two sizes? Choose the larger one; if your feet are wide, ask for Wide width.",
+    "select": "Select {n}",
+    "telegram_advice": "Size advice on Telegram"
+  },
+  "cart": {
+    "title": "Cart",
+    "delivery_note": "Delivery across Tashkent —",
+    "delivery_note_2": ", tomorrow. Regions: 2–4 days.",
+    "decrease": "Decrease",
+    "increase": "Increase",
+    "remove": "Remove from cart",
+    "item_meta": "{color} · {size} EU · {fit}",
+    "addons_title": "Goes well with",
+    "products": "Products",
+    "delivery": "Delivery (Tashkent)",
+    "total": "Total",
+    "nasiya": "With Uzum Nasiya: 3 × {n} UZS, 0% interest",
+    "checkout": "Proceed to checkout",
+    "empty_title": "Your cart is empty",
+    "empty_text": "Start with the new collection — delivery across Tashkent is free.",
+    "empty_cta": "Go to catalogue",
+    "price_partial": "{known} + {placeholder}"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "subtitle": "No account needed. Your phone number is all it takes to track your order.",
+    "step_contact": "Contact",
+    "step_delivery": "Delivery",
+    "step_payment": "Payment",
+    "contact_done": "{name} · {phone} · verified by SMS",
+    "name": "Full name",
+    "name_error": "Please enter your name — we need to know who to deliver to",
+    "phone": "Phone",
+    "phone_error": "Please enter your full phone number",
+    "send_code": "Get SMS code",
+    "code": "SMS code",
+    "code_hint": "Code sent to {phone}",
+    "code_error": "Please enter the code",
+    "confirm_code": "Confirm",
+    "resend": "Resend",
+    "delivery_courier": "Tashkent, courier",
+    "delivery_courier_note": "Tomorrow ·",
+    "delivery_regions": "To the regions",
+    "delivery_regions_note": "2–4 days · {price}",
+    "delivery_pickup": "I'll pick it up",
+    "delivery_pickup_note": "From the store or workshop · free",
+    "address": "Address",
+    "address_placeholder": "District, street, building",
+    "address_error": "Please enter your address",
+    "flat": "Apartment / landmark",
+    "flat_placeholder": "Optional",
+    "region": "Region",
+    "regions": [
+      "Tashkent Region",
+      "Samarkand",
+      "Bukhara",
+      "Fergana",
+      "Andijan",
+      "Namangan",
+      "Kashkadarya",
+      "Surkhandarya",
+      "Khorezm",
+      "Navoi",
+      "Jizzakh",
+      "Syrdarya",
+      "Karakalpakstan"
+    ],
+    "pickup_point": "Pickup point",
+    "pickup_store": "Store — {address}",
+    "pickup_workshop": "Workshop — {address}",
+    "time": "Preferred time",
+    "time_slots": ["10:00 – 14:00", "14:00 – 18:00", "18:00 – 21:00"],
+    "to_payment": "Continue to payment",
+    "payments": {
+      "payme": "Payme",
+      "click": "Click",
+      "uzum": "Uzum Pay",
+      "nasiya": "Uzum Nasiya",
+      "nasiya_sub": "3 months · 0%",
+      "cash": "Cash"
+    },
+    "payment_note": "Uzcard · Humo · Visa · Mastercard · UzQR — via Payme or Click.",
+    "payment_error": "Please choose a payment method",
+    "summary_title": "Your order",
+    "promo": "Promo code",
+    "promo_applied": "Promo code applied",
+    "promo_invalid": "This promo code doesn't exist",
+    "products": "Products",
+    "delivery": "Delivery",
+    "total": "Total",
+    "confirm": "Place order",
+    "legal": "By placing your order you accept the terms of the public offer. Order updates come via our Telegram bot.",
+    "success_title": "Thank you! Your order has been received",
+    "success_text": "Order number: {number}. Status updates will come via our Telegram bot or SMS.",
+    "success_cta": "Back to catalogue",
+    "empty_title": "Your cart is empty — choose a product to check out"
+  },
+  "footer": {
+    "tagline": "Italian aesthetics. Uzbek workshop. No middleman prices.",
+    "contact": "Contact",
+    "service": "Service",
+    "brand": "Brand",
+    "business": "Business",
+    "hours": "Daily 9:00 – 21:00",
+    "sizes": "Sizes",
+    "delivery": "Delivery",
+    "returns": "Returns & exchanges",
+    "care": "Leather care",
+    "faq": "FAQ",
+    "stores": "Stores",
+    "about": "About us",
+    "history": "History",
+    "workshop": "Workshop",
+    "materials": "Materials",
+    "contacts": "Contacts",
+    "journal": "Journal",
+    "reviews": "Customer reviews",
+    "wholesale": "Wholesale",
+    "dealers": "Dealership",
+    "private_label": "Manufacturing for partners",
+    "partnership": "Partnership enquiry",
+    "offer": "Public offer",
+    "privacy": "Privacy policy",
+    "payment_security": "Payment security",
+    "copyright": "© 2026 Luis Fabiani Shoes"
+  },
+  "reviews": [
+    {
+      "city": "Tashkent",
+      "model": "673-1"
+    },
+    {
+      "city": "Samarkand",
+      "model": "403-2"
+    },
+    {
+      "city": "Fergana",
+      "model": "6963-13"
+    },
+    {
+      "city": "Bukhara",
+      "model": null
+    }
+  ],
+  "palette": {
+    "label": "Palette",
+    "forest": "Forest + Cream",
+    "sage": "Soft Sage"
+  },
+  "stub": {
+    "note": "This page will be completed from the design in the next phase.",
+    "track": "Track order"
+  },
+  "errors": {
+    "title": "Something went wrong",
+    "not_found": "Page not found",
+    "text": "Go back to the home page or continue in the catalogue.",
+    "generic": "Something went wrong. Please try again."
+  },
+  "brand": {
+    "crumb": "Brand",
+    "workshop_crumb": "Workshop",
+    "workshop_head": "Workshop",
+    "workshop_title": "How we",
+    "workshop_title_em": "make shoes",
+    "workshop_text": "Our Tashkent workshop — 15 years, one team, one rule: every pair is assembled by hand and inspected individually.",
+    "workshop_photo": "Photo · Workshop, wide shot, documentary style",
+    "stats": [
+      {
+        "value": "15",
+        "label": "years of the workshop"
+      },
+      {
+        "value": "[NUMBER]",
+        "label": "craftsmen and staff"
+      },
+      {
+        "value": "[NUMBER]",
+        "label": "pairs — daily capacity"
+      },
+      {
+        "value": "100%",
+        "label": "genuine leather, nothing else"
+      }
+    ],
+    "path_title": "The journey of a pair",
+    "path_text": "Six stages — all under one roof. Not a single step is outsourced.",
+    "path_steps": [
+      {
+        "title": "Design and drawing",
+        "text": "[From client: who designs, which proportions come from Italian classics, how many days one model takes.]",
+        "photo": "Photo · drawing table"
+      },
+      {
+        "title": "Last",
+        "text": "A separate last for every size and every width. That's why a 42 Wide and a 42 Standard are two different shoes.",
+        "photo": "Photo · rack of lasts"
+      },
+      {
+        "title": "Cutting",
+        "text": "We choose the smoothest, unblemished part of the hide. The rest goes into accessories — nothing is wasted.",
+        "photo": "Photo · cutting leather by hand"
+      },
+      {
+        "title": "Lasting",
+        "text": "The upper is pulled over the last and left overnight — this is where the shape is born.",
+        "photo": "Photo · lasting the upper"
+      },
+      {
+        "title": "Stitching",
+        "text": "Sole and upper are stitched by hand. [From client: construction — Blake / Goodyear / cemented.]",
+        "photo": "Photo · stitching machine"
+      },
+      {
+        "title": "Quality check",
+        "text": "Every pair is inspected individually: stitching, colour, matching. A pair that fails never reaches the store.",
+        "photo": "Photo · inspection table, finished pair"
+      }
+    ],
+    "leather_title": "We choose",
+    "leather_title_em": "our own leather",
+    "leather_text": "[Leather types and origin — from client: which tannery, what tanning, sole material. The difference of each type in 1–2 sentences.]",
+    "leather_cta": "Materials page",
+    "leather_macro_smooth": "Close-up · smooth leather",
+    "leather_macro_suede": "Close-up · suede",
+    "leather_macro_patent": "Close-up · patent leather",
+    "cta_title": "See the models from our workshop",
+    "cta_text": "Or visit the workshop and find your size in person — pickup is free.",
+    "cta_catalog": "Catalogue",
+    "cta_stores": "Address & hours",
+    "history_crumb": "History",
+    "history_head": "History",
+    "history_title": "Quality",
+    "history_title_em": "through the years",
+    "history_text": "From a single workshop to a show in Milan — our journey from {year} to today.",
+    "history_photo": "Photo · Archive: the first workshop",
+    "timeline": [
+      {
+        "year": "[YEAR]",
+        "title": "The workshop opens",
+        "text": "[From client: who, where, with how many craftsmen it started.]",
+        "photo": "Photo · archive"
+      },
+      {
+        "year": "[YEAR]",
+        "title": "The first collection",
+        "text": "[From client: first models, first store.]",
+        "photo": "Photo · archive"
+      },
+      {
+        "year": "[YEAR]",
+        "title": "The first 1 000 pairs",
+        "text": "[From client: when, which model sold best.]",
+        "photo": "Photo · archive"
+      },
+      {
+        "year": "[YEAR]",
+        "title": "Telegram — 13 500 subscribers",
+        "text": "Our main ordering channel. A separate channel for customer reviews — over 500 of them.",
+        "photo": "Screenshot · channel"
+      },
+      {
+        "year": "[YEAR]",
+        "title": "YouTube — 1.5M views",
+        "text": "Workshop videos. 4 820 subscribers.",
+        "photo": "Still · video"
+      },
+      {
+        "year": "2026",
+        "title": "MICAM Milano",
+        "text": "Our first trade show with international partners. Stand [NUMBER].",
+        "photo": "Photo · stand",
+        "accent": true
+      },
+      {
+        "year": "Today",
+        "title": "15 years. Workshop + store + website",
+        "text": "Retail, wholesale and international — all in one place.",
+        "photo": "Photo · team",
+        "accent": true
+      }
+    ],
+    "materials_crumb": "Materials",
+    "materials_head": "Materials",
+    "materials_title": "Leather —",
+    "materials_title_em": "half of the shoe",
+    "materials_text": "We work only with genuine leather. Each type has its own character: the occasions it suits, how to care for it, how it ages over the years.",
+    "materials_list": [
+      {
+        "id": "leather",
+        "name": "Smooth leather",
+        "text": "[From client: which tannery, what tanning (chrome / vegetable), thickness. Which models use it.]",
+        "care": "[From client: care — cream, brush, how often.]",
+        "photo": "Close-up · smooth leather"
+      },
+      {
+        "id": "suede",
+        "name": "Suede",
+        "text": "[From client: origin, nap length, which season it suits.]",
+        "care": "[From client: water-repellent spray, rubber brush.]",
+        "photo": "Close-up · suede"
+      },
+      {
+        "id": "nubuck",
+        "name": "Nubuck",
+        "text": "[From client: how it differs from suede, which models use it.]",
+        "care": "[From client: care products.]",
+        "photo": "Close-up · nubuck"
+      },
+      {
+        "id": "patent",
+        "name": "Patent leather",
+        "text": "[From client: type of patent finish, why it's chosen for formal models.]",
+        "care": "[From client: wiping with a soft cloth, advice on wearing in the cold.]",
+        "photo": "Close-up · patent leather"
+      }
+    ],
+    "materials_care": "Care",
+    "materials_shop": "Models in this leather",
+    "materials_sole_title": "Sole and lining",
+    "materials_sole_text": "[From client: sole material (leather / rubber), lining leather, heel construction — 2–3 sentences.]"
+  },
+  "business": {
+    "title": "Business",
+    "hero_title": "Work directly",
+    "hero_title_em": "with the maker",
+    "hero_text": "Our own workshop, our own lasts, our own quality control. We work with wholesale buyers, dealers and international partners — no middlemen.",
+    "hero_cta": "Send an enquiry",
+    "hero_photo": "Photo · Workshop, production line",
+    "directions_title": "Three ways to work with us",
+    "directions": {
+      "wholesale": {
+        "title": "Wholesale",
+        "text": "Ready-made models in size runs. Minimum order — [NUMBER] pairs. Lead time — [NUMBER] days.",
+        "cta": "Request terms"
+      },
+      "dealers": {
+        "title": "Dealership",
+        "text": "A Luis Fabiani point of sale in the regions and neighbouring countries. With display materials and training.",
+        "cta": "Enquire about your region"
+      },
+      "private-label": {
+        "title": "Private label",
+        "text": "For international partners: your design or our models — under your label. A separate page in English.",
+        "cta": "Manufacturing (EN)"
+      }
+    },
+    "fact_capacity": "Daily capacity",
+    "fact_capacity_value": "{n} pairs",
+    "fact_models": "Models",
+    "fact_staff": "Staff",
+    "fact_markets": "Markets",
+    "fact_workshop": "Workshop",
+    "fact_workshop_value": "15 years",
+    "process_title": "Production process",
+    "photo_certificate": "Photo · Certificate / document",
+    "photo_supplier": "Photo · Leather supplier",
+    "photo_batch": "Photo · Finished batch",
+    "expo_label": "Trade show",
+    "expo_title": "Meet us at MICAM Milano",
+    "expo_text": "September 2026 · Stand {stand} · Meetings can be booked in advance",
+    "expo_cta": "Book a meeting",
+    "form_title": "Partnership enquiry",
+    "form_text": "We reply within one business day. The price list and terms are sent via Telegram or email.",
+    "form_phone": "Wholesale department: {phone}",
+    "form_email": "[email]",
+    "form": {
+      "company": "Company",
+      "company_error": "Please enter the company name",
+      "location": "Country and city",
+      "location_error": "Please enter the country and city",
+      "interest": "Area of interest",
+      "volume": "Estimated volume, pairs / month",
+      "name_error": "Please enter your name — we need to know who to contact",
+      "contact": "Phone or Telegram",
+      "contact_hint": "+998 XX XXX XX XX or {'@'}username",
+      "contact_error": "Enter a full phone number or Telegram {'@'}username",
+      "message": "Message",
+      "pricelist": "Send me the price list (PDF)",
+      "legal": "By submitting, you agree to the {policy}. Your data is used only to contact you.",
+      "legal_policy": "privacy policy",
+      "submit": "Send enquiry",
+      "done_title": "Thank you! Your enquiry has been received",
+      "done_text": "Our wholesale department will contact you within one business day. The price list and terms will be sent via Telegram or email.",
+      "done_again": "Send another enquiry"
+    }
+  },
+  "collections": {
+    "title": "Collections",
+    "title_em": "by occasion",
+    "intro": "Choose by where you're going. Each collection brings together models suited to the day.",
+    "all_title": "Prefer to shop by style?",
+    "all_text": "The catalogue has filters for type, size, width, colour and material.",
+    "to_catalog": "Browse the catalogue with filters",
+    "empty_title": "No models in this collection yet",
+    "empty_text": "New pairs are coming from the workshop soon.",
+    "items": {
+      "office": {
+        "title": "Office",
+        "text": "Oxford and Derby — with a suit or classic trousers, every day.",
+        "intro": "[From client: 1–2 sentences about the office collection — which models, which colours suit which suit.]",
+        "photo": "Photo · Oxford with suit trousers"
+      },
+      "wedding": {
+        "title": "Weddings & events",
+        "text": "Patent and smooth leather — for the most formal day.",
+        "intro": "[From client: recommendations for weddings and events — patent Oxford, black and navy.]",
+        "photo": "Photo · Patent Oxford"
+      },
+      "casual": {
+        "title": "Everyday",
+        "text": "Loafers, moccasins and leather sneakers — with jeans and chinos.",
+        "intro": "[From client: 1–2 sentences about the everyday collection — comfort, suede and nubuck.]",
+        "photo": "Photo · Loafer with jeans"
+      },
+      "winter": {
+        "title": "Winter",
+        "text": "Chelsea and winter boots — warm lining, non-slip sole.",
+        "intro": "[From client: winter models — lining, sole, care.]",
+        "photo": "Photo · Chelsea boot in snow"
+      },
+      "new": {
+        "title": "New",
+        "text": "Autumn — Winter 2026. Fresh from the workshop.",
+        "intro": "Autumn — Winter 2026. Fresh from the workshop.",
+        "photo": "Photo · New collection, studio"
+      }
+    }
+  },
+  "reviews_page": {
+    "title": "What customers",
+    "title_em": "say",
+    "rating": "[NUMBER]",
+    "rating_note": "Based on 500+ reviews",
+    "facts": [
+      {
+        "value": "500+",
+        "label": "reviews on our Telegram channel"
+      },
+      {
+        "value": "13 500",
+        "label": "subscribers"
+      }
+    ],
+    "items": [
+      {
+        "city": "Tashkent",
+        "model": "673-1"
+      },
+      {
+        "city": "Samarkand",
+        "model": "403-2"
+      },
+      {
+        "city": "Fergana",
+        "model": "6963-13"
+      },
+      {
+        "city": "Bukhara",
+        "model": null
+      },
+      {
+        "city": "Tashkent",
+        "model": "403-2"
+      },
+      {
+        "city": "Andijan",
+        "model": "673-1"
+      },
+      {
+        "city": "Namangan",
+        "model": null
+      },
+      {
+        "city": "Karshi",
+        "model": "6963-13"
+      },
+      {
+        "city": "Tashkent",
+        "model": null
+      }
+    ],
+    "cta_title": "All reviews are on our Telegram channel",
+    "cta_text": "Our customers post photos and videos. We never edit or delete a review.",
+    "cta_channel": "Open the channel",
+    "cta_catalog": "Go to catalogue"
+  },
+  "track": {
+    "intro": "Enter your phone number and order number. You'll find the order number in the SMS and the Telegram bot message.",
+    "number": "Order number",
+    "number_placeholder": "LF-000000",
+    "number_error": "Please enter the order number",
+    "not_found": "No order found for this number and phone",
+    "submit": "Check status",
+    "hint": "No account needed.",
+    "order": "Order",
+    "statuses": {
+      "new": "Received",
+      "confirmed": "Confirmed",
+      "packed": "Being prepared at the workshop",
+      "shipping": "On the way",
+      "delivered": "Delivered"
+    },
+    "delivery": {
+      "courier": "Tashkent, courier",
+      "regions": "To the regions",
+      "pickup": "Pickup"
+    },
+    "telegram_note": "You'll be notified of every status change via our Telegram bot or SMS."
+  },
+  "legal": {
+    "docs_nav": "Documents",
+    "contents": "Contents",
+    "updated": "Last updated: {date}",
+    "date": "[DATE]",
+    "placeholder": "[From client: legal text]",
+    "questions": "Questions about this document:",
+    "docs": {
+      "offer": {
+        "sections": [
+          "General provisions",
+          "Ordering procedure",
+          "Price and payment",
+          "Delivery",
+          "Returns and exchanges",
+          "Liability of the parties",
+          "Seller details"
+        ]
+      },
+      "privacy": {
+        "sections": [
+          "What data we collect",
+          "How we use your data",
+          "Sharing with third parties",
+          "Retention period",
+          "Your rights",
+          "Cookies"
+        ]
+      },
+      "payment": {
+        "sections": ["Payment methods", "Card data security", "Uzum Nasiya", "Refunds"]
+      }
+    }
+  },
+  "stores": {
+    "title": "Come in,",
+    "title_em": "try them on",
+    "intro": "Pick up your online order from the store or workshop yourself — free, the same day.",
+    "store": "Store",
+    "workshop": "Workshop",
+    "store_address": "[Address — street, building, landmark]",
+    "workshop_address": "[Address — street, building, landmark]",
+    "open_now": "Open now",
+    "closed_now": "Closed now",
+    "workshop_tag": "Wholesale and pickup",
+    "hours": "Opening hours",
+    "workshop_hours": "Mon – Sat, 9:00 – 18:00",
+    "phone": "Phone",
+    "wholesale_phone": "Wholesale department",
+    "metro": "Metro",
+    "metro_value": "{station} · {n} min walk",
+    "directions": "Get directions",
+    "regions": "In the regions",
+    "regions_text": "A list of dealer stores is coming in phase 2. For now we deliver to the regions in 2–4 days.",
+    "map_photo": "Map · Yandex / Google Maps, 2 pins",
+    "contact_title": "Contact",
+    "contact_text": "Questions, orders or size advice — choose whatever suits you. We usually reply within an hour.",
+    "contact_phone": "Phone",
+    "contact_telegram": "Message us",
+    "contact_telegram_note": "Orders, sizes and delivery",
+    "contact_social": "Social media",
+    "contact_social_note": "New models and workshop videos",
+    "contact_business": "Wholesale & partnership",
+    "contact_business_note": "Wholesale department: +998 [NUMBER] · [email]"
+  },
+  "help": {
+    "title": "Help",
+    "title_em": "& FAQ",
+    "intro": "The #1 reason for returns is the wrong size. So measure your foot first: 3 steps, 2 minutes. Everything else — delivery, payment, returns and care — is below.",
+    "nav_label": "Help sections",
+    "nav": {
+      "sizes": "Size chart",
+      "delivery": "Delivery & payment",
+      "returns": "Returns & exchanges",
+      "care": "Leather care",
+      "faq": "FAQ"
+    },
+    "sizes_lead": "Sizes are EU, 39–46. Our workshop has a separate last for every size and width — so go by your foot length in the chart, not by another brand's size.",
+    "sizes_exchange": "Wrong size? We'll exchange it for free within 14 days.",
+    "fit_narrow": "Slim foot with a low instep. [From client: which models offer it.]",
+    "fit_standard": "Fits most people. Not sure? Choose Standard.",
+    "fit_wide": "Wide foot or high instep. Ask when ordering or on Telegram.",
+    "delivery_title": "Delivery & payment",
+    "delivery_lead": "Across Tashkent — tomorrow, free. Regions: 2–4 days. Order updates come via our Telegram bot or SMS.",
+    "col_method": "Method",
+    "col_time": "Timing",
+    "col_price": "Price",
+    "delivery_courier_note": "You can try the shoes on when the courier arrives. [From client: order cut-off time.]",
+    "delivery_regions_note": "[From client: postal / courier service name]",
+    "delivery_same_day": "Same day",
+    "payment_title": "Payment methods",
+    "pay_cards": "Uzcard · Humo · Visa · Mastercard · UzQR",
+    "pay_uzum": "Via the Uzum app",
+    "pay_cash": "To the courier or in store",
+    "nasiya_title": "Pay in 3 months — 0% interest",
+    "nasiya_text": "With Uzum Nasiya the price is split into three equal parts. No interest, no hidden fees. [From client: minimum amount and limit terms.]",
+    "nasiya_step_1": "Choose «Uzum Nasiya» at checkout",
+    "nasiya_step_2": "Confirm your phone number in the Uzum app",
+    "nasiya_step_3": "First payment — one month later",
+    "returns_lead": "Unworn shoes with the box and tags can be returned within 14 days or exchanged for another size free of charge.",
+    "returns_fact_days": "days to return",
+    "returns_fact_exchange": "UZS to exchange a size",
+    "returns_fact_refund": "days to refund",
+    "returns_conditions_title": "Conditions",
+    "returns_conditions": [
+      "The shoes are unworn: no marks on the sole, no creases on the upper",
+      "Box, tags and receipt (or order number) are kept",
+      "No more than 14 days have passed since you received the order",
+      "[From client: terms for accessories and sale items]"
+    ],
+    "returns_steps_title": "How to return",
+    "returns_steps": [
+      {
+        "title": "Message us on Telegram",
+        "text": "Send your order number and the reason — exchange or return."
+      },
+      {
+        "title": "Hand over the pair",
+        "text": "Bring it to the store or workshop, or a courier will collect it (Tashkent)."
+      },
+      {
+        "title": "New pair or refund",
+        "text": "Exchanges — the same day. Refunds take [NUMBER] days depending on the payment method."
+      }
+    ],
+    "returns_cta": "Request a return",
+    "care_lead": "With proper care, genuine leather lasts for years. [From client: workshop recommendations and cream types.]",
+    "care_leather": "Brush off dust with a soft brush, apply cream in a matching colour and buff with a cloth after 20 minutes.",
+    "care_suede": "Only when dry, with a special rubber brush. Apply water-repellent spray before wearing.",
+    "care_patent": "Wipe with a soft damp cloth. No cream needed; protect from scratches.",
+    "care_leather_photo": "Close-up · smooth leather",
+    "care_suede_photo": "Close-up · suede",
+    "care_patent_photo": "Close-up · patent leather",
+    "care_rules_title": "General rules",
+    "care_rules": [
+      "Don't wear the same pair every day — let the leather rest for a day",
+      "Use wooden shoe trees or paper inside — they keep the shape",
+      "If they get wet, dry them at room temperature, not next to a radiator",
+      "Use a shoehorn — it protects the heel counter"
+    ],
+    "faq": [
+      {
+        "q": "I'm between two sizes — which should I choose?",
+        "a": "Choose the larger one. If your feet are wide, ask for Wide width or get advice on Telegram."
+      },
+      {
+        "q": "Can I try the shoes on when the courier arrives?",
+        "a": "Yes, in Tashkent the courier will wait. If they don't fit, another size is brought the next day."
+      },
+      {
+        "q": "Do I need an account?",
+        "a": "No. A name and phone number are enough to order — you can track the status via SMS or Telegram."
+      },
+      {
+        "q": "How do I track my order?",
+        "a": "With your order number and phone on the «Track order» page, or in our Telegram bot."
+      },
+      {
+        "q": "Where are the shoes made?",
+        "a": "Everything is made in our own workshop in Tashkent — from last to quality check. The leather is 100% genuine."
+      },
+      {
+        "q": "Is there a warranty?",
+        "a": "[From client: warranty period and terms for stitching and soles.]"
+      }
+    ],
+    "cta_title": "Didn't find an answer?",
+    "cta_text": "Message us on Telegram — a craftsman or manager will answer about sizes, models or orders. Daily 9:00 – 21:00."
+  }
 }

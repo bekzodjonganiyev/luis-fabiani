@@ -9,7 +9,7 @@ defineProps<{
 </script>
 
 <template>
-  <n-collapse class="lf-collapse" arrow-placement="right" :default-expanded-names="defaultExpanded">
+  <n-collapse class="lf-collapse" arrow-placement="left" :default-expanded-names="defaultExpanded">
     <n-collapse-item v-for="item in items" :key="item.key" :name="item.key" :title="item.title">
       <template #arrow>
         <ui-icon class="lf-collapse__arrow" name="chevron-down" :size="16" :stroke-width="2" />

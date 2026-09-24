@@ -10,7 +10,7 @@ export const useSiteLinks = () => {
 
   const nav = computed(() => [
     { key: "catalog", label: t("nav.catalog"), to: "/catalog", mega: true },
-    { key: "collections", label: t("nav.collections"), to: "/catalog?badge=new" },
+    { key: "collections", label: t("nav.collections"), to: "/collections" },
     { key: "brand", label: t("nav.brand"), to: "/brand/workshop" },
     { key: "business", label: t("nav.business"), to: "/business" },
     { key: "help", label: t("nav.help"), to: "/help" }
@@ -21,20 +21,22 @@ export const useSiteLinks = () => {
       { label: t("placeholders.phone"), href: `tel:+998` },
       { label: t("footer.hours"), href: undefined },
       { label: t("placeholders.address_store"), to: "/stores" },
-      { label: t("placeholders.address_workshop"), to: "/stores" }
+      { label: t("placeholders.address_workshop"), to: "/stores" },
+      { label: t("footer.contacts"), to: "/stores#contact" }
     ],
     service: [
       { label: t("footer.sizes"), to: "/help#sizes" },
       { label: t("footer.delivery"), to: "/help#delivery" },
       { label: t("footer.returns"), to: "/help#returns" },
       { label: t("footer.care"), to: "/help#care" },
-      { label: t("footer.faq"), to: "/help" },
+      { label: t("footer.faq"), to: "/help#faq" },
       { label: t("footer.stores"), to: "/stores" }
     ],
     brand: [
       { label: t("footer.about"), to: "/brand/history" },
       { label: t("footer.history"), to: "/brand/history" },
       { label: t("footer.workshop"), to: "/brand/workshop" },
+      { label: t("footer.materials"), to: "/brand/materials" },
       { label: t("footer.journal"), to: "/journal" },
       { label: t("footer.reviews"), to: "/reviews" }
     ],

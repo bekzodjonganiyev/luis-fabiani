@@ -9,7 +9,7 @@ const { t } = useI18n()
       <ui-photo
         class="order-1 h-[300px] !rounded-none lg:order-2 lg:col-span-6 lg:h-auto"
         dark
-        src="/images/leather_dark.jpg"
+        src="/images/home-hero.jpg"
         :caption="t('home.hero_photo')"
       >
         <div

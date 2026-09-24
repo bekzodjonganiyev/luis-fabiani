@@ -1,0 +1,8 @@
+export { default as BrandWorkshopHero } from "./brand-workshop-hero.vue"
+export { default as BrandWorkshopStats } from "./brand-workshop-stats.vue"
+export { default as BrandWorkshopSteps } from "./brand-workshop-steps.vue"
+export { default as BrandLeatherTeaser } from "./brand-leather-teaser.vue"
+export { default as BrandCta } from "./brand-cta.vue"
+export { default as BrandPageHead } from "./brand-page-head.vue"
+export { default as BrandTimeline } from "./brand-timeline.vue"
+export { default as BrandMaterialsList } from "./brand-materials-list.vue"

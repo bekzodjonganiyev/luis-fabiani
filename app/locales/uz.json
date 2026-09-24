@@ -200,21 +200,51 @@
     "workshop_play": "Videoni ko'rish",
     "workshop_cta": "Ustaxonani ko'rish",
     "steps": [
-      { "title": "Dizayn", "text": "Model chizmasi va detal o'lchamlari" },
-      { "title": "Qolip", "text": "Har o'lcham va to'liqlik uchun alohida" },
-      { "title": "Kesish", "text": "Charm terining eng tekis qismidan" },
-      { "title": "Yig'ish", "text": "Ustki qism qolipga tortiladi" },
-      { "title": "Tikuv", "text": "Taglik va ustki qism qo'lda birlashadi" },
-      { "title": "Sifat nazorati", "text": "Har bir juft alohida tekshiriladi" }
+      {
+        "title": "Dizayn",
+        "text": "Model chizmasi va detal o'lchamlari"
+      },
+      {
+        "title": "Qolip",
+        "text": "Har o'lcham va to'liqlik uchun alohida"
+      },
+      {
+        "title": "Kesish",
+        "text": "Charm terining eng tekis qismidan"
+      },
+      {
+        "title": "Yig'ish",
+        "text": "Ustki qism qolipga tortiladi"
+      },
+      {
+        "title": "Tikuv",
+        "text": "Taglik va ustki qism qo'lda birlashadi"
+      },
+      {
+        "title": "Sifat nazorati",
+        "text": "Har bir juft alohida tekshiriladi"
+      }
     ],
     "bestsellers_title": "Eng ko'p sotilganlar",
     "bestsellers_note": "Telegram kanalimizdagi 500 dan ortiq mijoz fikri asosida tuzilgan ro'yxat.",
     "styles_title": "Uslub bo'yicha",
     "styles": [
-      { "type": "oksford", "text": "Bandlari yopiq, eng rasmiy model. Ofis va tantanalar uchun." },
-      { "type": "derbi", "text": "Bandlari ochiq, oyoqqa erkinroq. Har kunga mos." },
-      { "type": "loafer", "text": "Bog'ichsiz, tez kiyiladi. Yoz va kuz uchun." },
-      { "type": "chelsi", "text": "Elastik yonli botinka. Sovuq kunlar uchun." }
+      {
+        "type": "oksford",
+        "text": "Bandlari yopiq, eng rasmiy model. Ofis va tantanalar uchun."
+      },
+      {
+        "type": "derbi",
+        "text": "Bandlari ochiq, oyoqqa erkinroq. Har kunga mos."
+      },
+      {
+        "type": "loafer",
+        "text": "Bog'ichsiz, tez kiyiladi. Yoz va kuz uchun."
+      },
+      {
+        "type": "chelsi",
+        "text": "Elastik yonli botinka. Sovuq kunlar uchun."
+      }
     ],
     "reviews_title": "Mijozlar",
     "reviews_title_2": "nima deydi",
@@ -229,7 +259,11 @@
     "business_micam": "Bizni {brand}da toping — sentabr 2026, stend {stand}",
     "business_micam_mobile": "MICAM Milano, sentabr 2026 — stend {stand}",
     "business_items": [
-      { "title": "Optom savdo", "text": "Shartlar, eng kam buyurtma hajmi, muddatlar", "to": "/business#wholesale" },
+      {
+        "title": "Optom savdo",
+        "text": "Shartlar, eng kam buyurtma hajmi, muddatlar",
+        "to": "/business#wholesale"
+      },
       {
         "title": "Dilerlik",
         "text": "Viloyatlarda va qo'shni davlatlarda savdo nuqtasi ochish",
@@ -472,6 +506,8 @@
     "about": "Biz haqimizda",
     "history": "Tarix",
     "workshop": "Ustaxona",
+    "materials": "Materiallar",
+    "contacts": "Kontakt",
     "journal": "Jurnal",
     "reviews": "Mijoz fikrlari",
     "wholesale": "Optom savdo",
@@ -484,10 +520,22 @@
     "copyright": "© 2026 Luis Fabiani Shoes"
   },
   "reviews": [
-    { "city": "Toshkent", "model": "673-1" },
-    { "city": "Samarqand", "model": "403-2" },
-    { "city": "Farg'ona", "model": "6963-13" },
-    { "city": "Buxoro", "model": null }
+    {
+      "city": "Toshkent",
+      "model": "673-1"
+    },
+    {
+      "city": "Samarqand",
+      "model": "403-2"
+    },
+    {
+      "city": "Farg'ona",
+      "model": "6963-13"
+    },
+    {
+      "city": "Buxoro",
+      "model": null
+    }
   ],
   "palette": {
     "label": "Palitra",
@@ -496,11 +544,6 @@
   },
   "stub": {
     "note": "Bu sahifa keyingi bosqichda dizayn asosida to'ldiriladi.",
-    "workshop": "Qanday tikamiz",
-    "history": "Yillar orqali sifat",
-    "business": "Ishlab chiqaruvchi bilan bevosita ishlang",
-    "stores": "Kelib ko'ring, kiyib ko'ring",
-    "help": "Yordam",
     "track": "Buyurtmani kuzatish"
   },
   "errors": {
@@ -508,5 +551,525 @@
     "not_found": "Sahifa topilmadi",
     "text": "Bosh sahifaga qayting yoki katalogdan davom eting.",
     "generic": "Xatolik. Qayta urinib ko'ring."
+  },
+  "brand": {
+    "crumb": "Brend",
+    "workshop_crumb": "Ustaxona",
+    "workshop_head": "Ustaxona",
+    "workshop_title": "Qanday",
+    "workshop_title_em": "tikamiz",
+    "workshop_text": "Toshkentdagi ustaxonamiz — 15 yil, bitta jamoa, bitta qoida: har bir juft qo'lda yig'iladi va alohida tekshiriladi.",
+    "workshop_photo": "Foto · Ustaxona, keng plan, hujjatli uslub",
+    "stats": [
+      {
+        "value": "15",
+        "label": "yil ustaxona"
+      },
+      {
+        "value": "[RAQAM]",
+        "label": "usta va xodim"
+      },
+      {
+        "value": "[RAQAM]",
+        "label": "juft — kunlik quvvat"
+      },
+      {
+        "value": "100%",
+        "label": "tabiiy charm, boshqa material yo'q"
+      }
+    ],
+    "path_title": "Bir juft poyabzalning yo'li",
+    "path_text": "Olti bosqich — hammasi bitta bino ichida. Hech bir qadam tashqariga berilmaydi.",
+    "path_steps": [
+      {
+        "title": "Dizayn va chizma",
+        "text": "[Mijozdan: kim chizadi, italyan klassikasidan qaysi nisbatlar olinadi, bir model necha kunda tayyor bo'ladi.]",
+        "photo": "Foto · chizma stoli"
+      },
+      {
+        "title": "Qolip",
+        "text": "Har o'lcham va har to'liqlik uchun alohida qolip. Shuning uchun 42 keng va 42 standart ikki xil poyabzal.",
+        "photo": "Foto · qoliplar javoni"
+      },
+      {
+        "title": "Kesish",
+        "text": "Terining eng tekis, chandiqsiz qismi tanlanadi. Qolgani aksessuarlarga ketadi — hech narsa tashlanmaydi.",
+        "photo": "Foto · charm kesish, qo'l"
+      },
+      {
+        "title": "Yig'ish",
+        "text": "Ustki qism qolipga tortiladi va bir kecha shu holda qoladi — shakl aynan shu yerda tug'iladi.",
+        "photo": "Foto · qolipga tortish"
+      },
+      {
+        "title": "Tikuv",
+        "text": "Taglik va ustki qism qo'lda tikiladi. [Mijozdan: tikuv usuli — Blake / Goodyear / yopishtirma.]",
+        "photo": "Foto · tikuv mashinasi"
+      },
+      {
+        "title": "Sifat nazorati",
+        "text": "Har bir juft alohida tekshiriladi: tikuv, rang, juftlik. Nomuvofiq juft do'konga chiqmaydi.",
+        "photo": "Foto · tekshiruv stoli, tayyor juft"
+      }
+    ],
+    "leather_title": "Charmni",
+    "leather_title_em": "o'zimiz tanlaymiz",
+    "leather_text": "[Charm turlari va kelib chiqishi — mijozdan: qaysi zavod, qanday oshlash, taglik materiali. Har bir turning farqi 1–2 jumlada.]",
+    "leather_cta": "Materiallar sahifasi",
+    "leather_macro_smooth": "Makro · silliq charm",
+    "leather_macro_suede": "Makro · zamsha",
+    "leather_macro_patent": "Makro · lak",
+    "cta_title": "Ustaxonadan chiqqan modellarni ko'ring",
+    "cta_text": "Yoki ustaxonaga kelib, o'lchamingizni joyida tanlang — o'zi olib ketish bepul.",
+    "cta_catalog": "Katalog",
+    "cta_stores": "Manzil va ish vaqti",
+    "history_crumb": "Tarix",
+    "history_head": "Tarix",
+    "history_title": "Yillar orqali",
+    "history_title_em": "sifat",
+    "history_text": "Bitta ustaxonadan Milan ko'rgazmasigacha — {year} yildan bugungacha bo'lgan yo'l.",
+    "history_photo": "Foto · Arxiv: birinchi ustaxona",
+    "timeline": [
+      {
+        "year": "[YIL]",
+        "title": "Ustaxona ochildi",
+        "text": "[Mijozdan: kim, qayerda, necha usta bilan boshlangan.]",
+        "photo": "Foto · arxiv"
+      },
+      {
+        "year": "[YIL]",
+        "title": "Birinchi kolleksiya",
+        "text": "[Mijozdan: birinchi modellar, birinchi do'kon.]",
+        "photo": "Foto · arxiv"
+      },
+      {
+        "year": "[YIL]",
+        "title": "Birinchi 1 000 juft",
+        "text": "[Mijozdan: qachon, qaysi model eng ko'p sotilgan.]",
+        "photo": "Foto · arxiv"
+      },
+      {
+        "year": "[YIL]",
+        "title": "Telegram — 13 500 obunachi",
+        "text": "Buyurtmalarning asosiy kanali. Mijoz fikrlari uchun alohida kanal — 500 dan ortiq sharh.",
+        "photo": "Skrinshot · kanal"
+      },
+      {
+        "year": "[YIL]",
+        "title": "YouTube — 1,5 mln ko'rish",
+        "text": "Ustaxona videolari. 4 820 obunachi.",
+        "photo": "Kadr · video"
+      },
+      {
+        "year": "2026",
+        "title": "MICAM Milano",
+        "text": "Xalqaro hamkorlar bilan birinchi ko'rgazma. Stend [RAQAM].",
+        "photo": "Foto · stend",
+        "accent": true
+      },
+      {
+        "year": "Bugun",
+        "title": "15 yil. Ustaxona + do'kon + sayt",
+        "text": "Chakana, optom va xalqaro yo'nalish — bitta manzilda.",
+        "photo": "Foto · jamoa",
+        "accent": true
+      }
+    ],
+    "materials_crumb": "Materiallar",
+    "materials_head": "Materiallar",
+    "materials_title": "Charm —",
+    "materials_title_em": "poyabzalning yarmi",
+    "materials_text": "Biz faqat tabiiy charm bilan ishlaymiz. Har bir tur o'z xarakteriga ega: qaysi vaziyatga mos, qanday parvarish qilinadi, yillar davomida qanday o'zgaradi.",
+    "materials_list": [
+      {
+        "id": "leather",
+        "name": "Silliq charm",
+        "text": "[Mijozdan: qaysi zavod, qanday oshlash (xrom / o'simlik), qalinligi. Qaysi modellarda ishlatiladi.]",
+        "care": "[Mijozdan: parvarish — krem, cho'tka, qancha vaqtda bir.]",
+        "photo": "Makro · silliq charm"
+      },
+      {
+        "id": "suede",
+        "name": "Zamsha",
+        "text": "[Mijozdan: kelib chiqishi, tuk uzunligi, qaysi mavsumga mos.]",
+        "care": "[Mijozdan: suvdan himoya spreyi, rezina cho'tka.]",
+        "photo": "Makro · zamsha"
+      },
+      {
+        "id": "nubuck",
+        "name": "Nubuk",
+        "text": "[Mijozdan: zamshadan farqi, qaysi modellarda ishlatiladi.]",
+        "care": "[Mijozdan: parvarish vositalari.]",
+        "photo": "Makro · nubuk"
+      },
+      {
+        "id": "patent",
+        "name": "Lak",
+        "text": "[Mijozdan: lak qoplama turi, tantanali modellar uchun nima uchun tanlanadi.]",
+        "care": "[Mijozdan: yumshoq mato bilan artish, sovuqda kiyish bo'yicha tavsiya.]",
+        "photo": "Makro · lak"
+      }
+    ],
+    "materials_care": "Parvarish",
+    "materials_shop": "Shu charmdagi modellar",
+    "materials_sole_title": "Taglik va astar",
+    "materials_sole_text": "[Mijozdan: taglik materiali (charm / rezina), astar charmi, poshna qurilishi — 2–3 jumla.]"
+  },
+  "business": {
+    "title": "Biznes",
+    "hero_title": "Ishlab chiqaruvchi bilan",
+    "hero_title_em": "bevosita ishlang",
+    "hero_text": "O'z ustaxonamiz, o'z qoliplarimiz, o'z sifat nazoratimiz. Optom xaridorlar, dilerlar va xalqaro hamkorlar bilan vositachisiz ishlaymiz.",
+    "hero_cta": "So'rov qoldirish",
+    "hero_photo": "Foto · Ustaxona, ishlab chiqarish liniyasi",
+    "directions_title": "Uch yo'nalish",
+    "directions": {
+      "wholesale": {
+        "title": "Optom savdo",
+        "text": "Tayyor modellar, o'lcham to'plamlari bilan. Eng kam buyurtma — [RAQAM] juft. Muddat — [RAQAM] kun.",
+        "cta": "Shartlarni so'rash"
+      },
+      "dealers": {
+        "title": "Dilerlik",
+        "text": "Viloyatlarda va qo'shni davlatlarda Luis Fabiani nomi ostida savdo nuqtasi. Vitrina materiallari va o'quv bilan.",
+        "cta": "Hudud bo'yicha so'rash"
+      },
+      "private-label": {
+        "title": "Sizning brendingiz ostida",
+        "text": "Xalqaro hamkorlar uchun: Sizning dizayningiz yoki bizning modellarimiz — Sizning yorlig'ingiz bilan. Ingliz tilida alohida sahifa.",
+        "cta": "Manufacturing (EN)"
+      }
+    },
+    "fact_capacity": "Kunlik quvvat",
+    "fact_capacity_value": "{n} juft",
+    "fact_models": "Modellar soni",
+    "fact_staff": "Xodimlar",
+    "fact_markets": "Bozorlar",
+    "fact_workshop": "Ustaxona",
+    "fact_workshop_value": "15 yil",
+    "process_title": "Ishlab chiqarish jarayoni",
+    "photo_certificate": "Foto · Sertifikat / hujjat",
+    "photo_supplier": "Foto · Charm yetkazuvchi",
+    "photo_batch": "Foto · Tayyor partiya",
+    "expo_label": "Ko'rgazma",
+    "expo_title": "Bizni MICAM Milano'da toping",
+    "expo_text": "Sentabr 2026 · Stend {stand} · Uchrashuvni oldindan belgilash mumkin",
+    "expo_cta": "Uchrashuv belgilash",
+    "form_title": "Hamkorlik so'rovi",
+    "form_text": "Bir ish kuni ichida javob beramiz. Narxlar ro'yxati va shartlar Telegram yoki elektron pochtaga yuboriladi.",
+    "form_phone": "Optom bo'lim: {phone}",
+    "form_email": "[email]",
+    "form": {
+      "company": "Kompaniya",
+      "company_error": "Kompaniya nomini kiriting",
+      "location": "Mamlakat va shahar",
+      "location_error": "Mamlakat va shaharni kiriting",
+      "interest": "Qiziqish turi",
+      "volume": "Taxminiy hajm, juft / oy",
+      "name_error": "Ismingizni kiriting — kim bilan bog'lanishni bilishimiz kerak",
+      "contact": "Telefon yoki Telegram",
+      "contact_hint": "+998 XX XXX XX XX yoki {'@'}username",
+      "contact_error": "To'liq telefon raqami yoki Telegram {'@'}username kiriting",
+      "message": "Xabar",
+      "pricelist": "Narxlar ro'yxatini (PDF) yuboring",
+      "legal": "Yuborish bilan Siz {policy}ga rozilik bildirasiz. Ma'lumotlar faqat aloqa uchun ishlatiladi.",
+      "legal_policy": "maxfiylik siyosati",
+      "submit": "So'rovni yuborish",
+      "done_title": "Rahmat! So'rovingiz qabul qilindi",
+      "done_text": "Bir ish kuni ichida optom bo'limimiz Siz bilan bog'lanadi. Narxlar ro'yxati va shartlar Telegram yoki elektron pochtaga yuboriladi.",
+      "done_again": "Yana so'rov yuborish"
+    }
+  },
+  "collections": {
+    "title": "Kolleksiyalar",
+    "title_em": "vaziyat bo'yicha",
+    "intro": "Qayerga borasiz — shunga qarab tanlang. Har bir kolleksiyada shu kunga mos modellar yig'ilgan.",
+    "all_title": "Uslub bo'yicha tanlamoqchimisiz?",
+    "all_text": "Katalogda tur, o'lcham, to'liqlik, rang va material bo'yicha filtrlar bor.",
+    "to_catalog": "Katalogda filtrlar bilan ko'rish",
+    "empty_title": "Bu kolleksiyada hozircha model yo'q",
+    "empty_text": "Tez orada ustaxonadan yangi juftlar chiqadi.",
+    "items": {
+      "office": {
+        "title": "Ofisga",
+        "text": "Oksford va Derbi — kostyum va klassik shim bilan har kuni.",
+        "intro": "[Mijozdan: ofis kolleksiyasi haqida 1–2 jumla — qaysi modellar, qaysi rang kostyumga mos.]",
+        "photo": "Foto · Oksford, kostyum shim bilan"
+      },
+      "wedding": {
+        "title": "To'y va tantana",
+        "text": "Lak va silliq charm — eng rasmiy kun uchun.",
+        "intro": "[Mijozdan: to'y va tantana uchun tavsiyalar — lak Oksford, qora va to'q ko'k.]",
+        "photo": "Foto · Lak Oksford"
+      },
+      "casual": {
+        "title": "Kundalik",
+        "text": "Loafer, mokasin va charm sneaker — jins va chinos bilan.",
+        "intro": "[Mijozdan: kundalik kolleksiya haqida 1–2 jumla — qulaylik, zamsha va nubuk.]",
+        "photo": "Foto · Loafer, jins bilan"
+      },
+      "winter": {
+        "title": "Qish",
+        "text": "Chelsi va qishki botinka — issiq astar, sirpanmaydigan taglik.",
+        "intro": "[Mijozdan: qishki modellar — astar, taglik, parvarish.]",
+        "photo": "Foto · Chelsi botinka, qor"
+      },
+      "new": {
+        "title": "Yangi",
+        "text": "Kuz — qish 2026. Ustaxonadan yangi chiqqan modellar.",
+        "intro": "Kuz — qish 2026. Ustaxonadan yangi chiqqan modellar.",
+        "photo": "Foto · Yangi kolleksiya, studiya"
+      }
+    }
+  },
+  "reviews_page": {
+    "title": "Mijozlar",
+    "title_em": "nima deydi",
+    "rating": "[RAQAM]",
+    "rating_note": "500 dan ortiq fikr asosida",
+    "facts": [
+      {
+        "value": "500+",
+        "label": "fikr Telegram kanalida"
+      },
+      {
+        "value": "13 500",
+        "label": "obunachi"
+      }
+    ],
+    "items": [
+      {
+        "city": "Toshkent",
+        "model": "673-1"
+      },
+      {
+        "city": "Samarqand",
+        "model": "403-2"
+      },
+      {
+        "city": "Farg'ona",
+        "model": "6963-13"
+      },
+      {
+        "city": "Buxoro",
+        "model": null
+      },
+      {
+        "city": "Toshkent",
+        "model": "403-2"
+      },
+      {
+        "city": "Andijon",
+        "model": "673-1"
+      },
+      {
+        "city": "Namangan",
+        "model": null
+      },
+      {
+        "city": "Qarshi",
+        "model": "6963-13"
+      },
+      {
+        "city": "Toshkent",
+        "model": null
+      }
+    ],
+    "cta_title": "Barcha fikrlar — Telegram kanalida",
+    "cta_text": "Mijozlarimiz rasm va video bilan yozadi. Biz hech bir fikrni o'zgartirmaymiz va o'chirmaymiz.",
+    "cta_channel": "Kanalni ochish",
+    "cta_catalog": "Katalogga o'tish"
+  },
+  "track": {
+    "intro": "Telefon raqamingiz va buyurtma raqamini kiriting. Buyurtma raqami SMS va Telegram botdagi xabarda bor.",
+    "number": "Buyurtma raqami",
+    "number_placeholder": "LF-000000",
+    "number_error": "Buyurtma raqamini kiriting",
+    "not_found": "Bu raqam va telefon bo'yicha buyurtma topilmadi",
+    "submit": "Holatni ko'rish",
+    "hint": "Ro'yxatdan o'tish shart emas.",
+    "order": "Buyurtma",
+    "statuses": {
+      "new": "Qabul qilindi",
+      "confirmed": "Tasdiqlandi",
+      "packed": "Ustaxonada tayyorlanmoqda",
+      "shipping": "Yo'lda",
+      "delivered": "Yetkazildi"
+    },
+    "delivery": {
+      "courier": "Toshkent, kuryer",
+      "regions": "Viloyatlarga",
+      "pickup": "O'zim olib ketaman"
+    },
+    "telegram_note": "Har bir yangi holat haqida Telegram bot yoki SMS orqali xabar keladi."
+  },
+  "legal": {
+    "docs_nav": "Hujjatlar",
+    "contents": "Mundarija",
+    "updated": "Oxirgi yangilanish: {date}",
+    "date": "[SANA]",
+    "placeholder": "[Mijozdan: yuridik matn]",
+    "questions": "Hujjat bo'yicha savollar:",
+    "docs": {
+      "offer": {
+        "sections": [
+          "Umumiy qoidalar",
+          "Buyurtma berish tartibi",
+          "Narx va to'lov",
+          "Yetkazib berish",
+          "Qaytarish va almashtirish",
+          "Tomonlarning javobgarligi",
+          "Sotuvchi rekvizitlari"
+        ]
+      },
+      "privacy": {
+        "sections": [
+          "Qaysi ma'lumotlarni yig'amiz",
+          "Ma'lumotlardan foydalanish",
+          "Uchinchi tomonlarga berish",
+          "Saqlash muddati",
+          "Sizning huquqlaringiz",
+          "Cookie fayllar"
+        ]
+      },
+      "payment": {
+        "sections": ["To'lov usullari", "Karta ma'lumotlari xavfsizligi", "Uzum Nasiya", "Pulni qaytarish"]
+      }
+    }
+  },
+  "stores": {
+    "title": "Kelib ko'ring,",
+    "title_em": "kiyib ko'ring",
+    "intro": "Saytdan buyurtma qilgan juftni do'kon yoki ustaxonadan o'zingiz olib ketishingiz mumkin — bepul, o'sha kuni.",
+    "store": "Do'kon",
+    "workshop": "Ustaxona",
+    "store_address": "[Manzil — ko'cha, uy, mo'ljal]",
+    "workshop_address": "[Manzil — ko'cha, uy, mo'ljal]",
+    "open_now": "Hozir ochiq",
+    "closed_now": "Hozir yopiq",
+    "workshop_tag": "Optom va o'zi olib ketish",
+    "hours": "Ish vaqti",
+    "workshop_hours": "Dush – Shan, 9:00 – 18:00",
+    "phone": "Telefon",
+    "wholesale_phone": "Optom bo'lim",
+    "metro": "Metro",
+    "metro_value": "{station} · {n} daqiqa piyoda",
+    "directions": "Yo'l ko'rsatish",
+    "regions": "Viloyatlarda",
+    "regions_text": "Diler do'konlari ro'yxati — 2-fazada. Hozircha viloyatlarga 2–4 kunda yetkazib beramiz.",
+    "map_photo": "Xarita · Yandex / Google Maps, 2 ta belgi",
+    "contact_title": "Kontakt",
+    "contact_text": "Savol, buyurtma yoki o'lcham bo'yicha maslahat — qulay usulni tanlang. Odatda bir soat ichida javob beramiz.",
+    "contact_phone": "Telefon",
+    "contact_telegram": "Yozish",
+    "contact_telegram_note": "Buyurtma, o'lcham va yetkazib berish bo'yicha",
+    "contact_social": "Ijtimoiy tarmoqlar",
+    "contact_social_note": "Yangi modellar va ustaxona videolari",
+    "contact_business": "Optom va hamkorlik",
+    "contact_business_note": "Optom bo'lim: +998 [RAQAM] · [email]"
+  },
+  "help": {
+    "title": "Yordam",
+    "title_em": "va savollar",
+    "intro": "Qaytarishning №1 sababi — noto'g'ri o'lcham. Shuning uchun avval oyog'ingizni o'lchang: 3 qadam, 2 daqiqa. Qolgan savollar — yetkazib berish, to'lov, qaytarish va parvarish — pastda.",
+    "nav_label": "Yordam bo'limlari",
+    "nav": {
+      "sizes": "O'lcham jadvali",
+      "delivery": "Yetkazib berish va to'lov",
+      "returns": "Qaytarish va almashtirish",
+      "care": "Charm parvarishi",
+      "faq": "Savol-javob"
+    },
+    "sizes_lead": "O'lchamlar EU bo'yicha, 39–46. Har o'lcham va to'liqlik uchun ustaxonada alohida qolip bor — shuning uchun jadvalga oyoq uzunligi bo'yicha qarang, boshqa brend o'lchamiga emas.",
+    "sizes_exchange": "O'lcham to'g'ri kelmasa — 14 kun ichida bepul almashtiramiz.",
+    "fit_narrow": "Oyog'i ingichka, baland ko'tarilmagan. [Mijozdan: qaysi modellarda bor.]",
+    "fit_standard": "Ko'pchilik uchun. Ishonchingiz komil bo'lmasa — Standart.",
+    "fit_wide": "Oyog'i keng yoki baland ko'tarilgan. Buyurtmada yoki Telegramda so'rang.",
+    "delivery_title": "Yetkazib berish va to'lov",
+    "delivery_lead": "Toshkent bo'ylab ertaga, bepul. Viloyatlarga 2–4 kun. Buyurtma holati Telegram bot yoki SMS orqali keladi.",
+    "col_method": "Usul",
+    "col_time": "Muddat",
+    "col_price": "Narx",
+    "delivery_courier_note": "Kuryer kelganda kiyib ko'rish mumkin. [Mijozdan: buyurtma qabul qilish soati.]",
+    "delivery_regions_note": "[Mijozdan: pochta / kuryer xizmati nomi]",
+    "delivery_same_day": "O'sha kuni",
+    "payment_title": "To'lov usullari",
+    "pay_cards": "Uzcard · Humo · Visa · Mastercard · UzQR",
+    "pay_uzum": "Uzum ilovasi orqali",
+    "pay_cash": "Kuryerga yoki do'konda",
+    "nasiya_title": "3 oyga bo'lib to'lang — 0% ustama",
+    "nasiya_text": "Uzum Nasiya bilan juft narxi uch teng qismga bo'linadi. Ustama va yashirin to'lov yo'q. [Mijozdan: eng kam summa va limit shartlari.]",
+    "nasiya_step_1": "Checkout'da «Uzum Nasiya» ni tanlang",
+    "nasiya_step_2": "Uzum ilovasida telefon raqamingizni tasdiqlang",
+    "nasiya_step_3": "Birinchi to'lov — bir oydan keyin",
+    "returns_lead": "Kiyilmagan, qutisi va yorlig'i saqlangan juftni 14 kun ichida qaytarish yoki boshqa o'lchamga bepul almashtirish mumkin.",
+    "returns_fact_days": "kun ichida qaytarish",
+    "returns_fact_exchange": "so'm — o'lchamni almashtirish",
+    "returns_fact_refund": "kunda pul qaytariladi",
+    "returns_conditions_title": "Shartlar",
+    "returns_conditions": [
+      "Poyabzal kiyilmagan: taglikda iz, ustida burishiq yo'q",
+      "Quti, yorliq va chek (yoki buyurtma raqami) saqlangan",
+      "Buyurtma olingan kundan boshlab 14 kun o'tmagan",
+      "[Mijozdan: aksessuar va chegirmadagi mahsulotlar sharti]"
+    ],
+    "returns_steps_title": "Qanday qaytariladi",
+    "returns_steps": [
+      {
+        "title": "Telegramga yozing",
+        "text": "Buyurtma raqami va sababini yuboring — almashtirish yoki qaytarish."
+      },
+      {
+        "title": "Juftni topshiring",
+        "text": "Do'kon yoki ustaxonaga olib keling yoki kuryer olib ketadi (Toshkent)."
+      },
+      {
+        "title": "Yangi juft yoki pul",
+        "text": "Almashtirish — o'sha kuni. Pul to'lov usuliga qarab [RAQAM] kunda qaytadi."
+      }
+    ],
+    "returns_cta": "Qaytarish so'rovi",
+    "care_lead": "Tabiiy charm to'g'ri parvarishda yillar xizmat qiladi. [Mijozdan: ustaxona tavsiyalari va krem turlari.]",
+    "care_leather": "Yumshoq cho'tka bilan changdan tozalang, mos rangdagi krem surting va 20 daqiqadan keyin latta bilan yaltirating.",
+    "care_suede": "Faqat quruq holda, maxsus rezina cho'tka bilan. Suvga chidamli sprey — kiyishdan oldin.",
+    "care_patent": "Nam yumshoq latta bilan arting. Krem kerak emas; tirnalishdan saqlang.",
+    "care_leather_photo": "Makro · silliq charm",
+    "care_suede_photo": "Makro · zamsha",
+    "care_patent_photo": "Makro · lak",
+    "care_rules_title": "Umumiy qoidalar",
+    "care_rules": [
+      "Har kuni bitta juftni kiymang — charm bir kun dam olsin",
+      "Ichiga yog'och qolip yoki qog'oz soling — shakl saqlanadi",
+      "Ho'l bo'lsa, radiator yonida emas, xona haroratida quriting",
+      "Shoxkosh (lojka) bilan kiying — tovon qismi ezilmaydi"
+    ],
+    "faq": [
+      {
+        "q": "O'lchamim ikki raqam orasida bo'lsa, qaysini olay?",
+        "a": "Kattasini oling. Oyog'ingiz keng bo'lsa — Keng to'liqlikni so'rang yoki Telegramda maslahat oling."
+      },
+      {
+        "q": "Kuryer kelganda kiyib ko'rsam bo'ladimi?",
+        "a": "Ha, Toshkent bo'ylab kuryer kutib turadi. To'g'ri kelmasa, boshqa o'lchamni keyingi kun olib keladi."
+      },
+      {
+        "q": "Ro'yxatdan o'tish shartmi?",
+        "a": "Yo'q. Buyurtma uchun ism va telefon raqami yetarli — holatini SMS yoki Telegram orqali kuzatasiz."
+      },
+      {
+        "q": "Buyurtmamni qanday kuzataman?",
+        "a": "Buyurtma raqami va telefon orqali «Buyurtmani kuzatish» sahifasida yoki Telegram botda."
+      },
+      {
+        "q": "Poyabzal qayerda tikiladi?",
+        "a": "Hammasi Toshkentdagi o'z ustaxonamizda — qolipdan sifat nazoratigacha. Charm — 100% tabiiy."
+      },
+      {
+        "q": "Kafolat bormi?",
+        "a": "[Mijozdan: tikuv va taglik bo'yicha kafolat muddati va shartlari.]"
+      }
+    ],
+    "cta_title": "Javob topmadingizmi?",
+    "cta_text": "Telegramga yozing — o'lcham, model yoki buyurtma bo'yicha usta yoki menejer javob beradi. Har kuni 9:00 – 21:00."
   }
 }

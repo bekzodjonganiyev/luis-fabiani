@@ -9,7 +9,7 @@ const steps = computed(() => (tm("home.steps") as any[]).map((s) => ({ title: rt
       <ui-photo
         class="flex h-[240px] items-center justify-center !rounded-none lg:col-span-6 lg:h-auto"
         dark
-        src="/images/leather_video.jpg"
+        src="/images/home-workshop.jpg"
         :caption="t('home.workshop_video')"
       >
         <button

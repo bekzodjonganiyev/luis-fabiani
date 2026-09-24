@@ -19,7 +19,7 @@ const styles = computed(() => [
   { label: t("mega.sneaker"), to: "/catalog?type=sneaker" }
 ])
 const occasions = computed(() =>
-  ["office", "wedding", "casual", "winter"].map((o) => ({ label: t(`occasions.${o}`), to: `/catalog?occasion=${o}` }))
+  ["office", "wedding", "casual", "winter"].map((o) => ({ label: t(`occasions.${o}`), to: `/collections/${o}` }))
 )
 const accessories = computed(() => [
   { label: t("mega.belts"), to: "/catalog?category=accessories&kind=belt" },

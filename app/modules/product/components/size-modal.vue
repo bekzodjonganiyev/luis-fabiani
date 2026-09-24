@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import SizeTable from "./size-table.vue"
 import { useProductStore, useProductService, SIZE_RANGE } from "@/modules/product"
 
 /** O'lcham jadvali (SizeModal.html): 3 qadam + jadval + tanlash. sm qiymatlari — mijozdan ([sm]). */
@@ -80,45 +81,7 @@ const confirm = () => {
           :aria-label="t('size_modal.table_title')"
         />
 
-        <table class="w-full border-collapse border border-line bg-card text-sm">
-          <thead>
-            <tr class="bg-photo-bg text-left">
-              <th class="px-3.5 py-2.5 text-[11px] font-bold uppercase tracking-[.08em] text-muted">
-                {{ t("size_modal.col_eu") }}
-              </th>
-              <th class="px-3.5 py-2.5 text-[11px] font-bold uppercase tracking-[.08em] text-muted">
-                {{ store.sizeUnit === "cm" ? t("size_modal.col_length_cm") : t("size_modal.col_length_in") }}
-              </th>
-              <th class="px-3.5 py-2.5 text-[11px] font-bold uppercase tracking-[.08em] text-muted">
-                {{ t("size_modal.col_stock") }}
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr
-              v-for="r in rows"
-              :key="r.eu"
-              class="cursor-pointer border-t border-line transition-colors duration-lf"
-              :class="picked === r.eu ? 'bg-[var(--lf-selected-bg)]' : 'hover:bg-bg'"
-              @click="r.available && (picked = r.eu)"
-            >
-              <td class="tabular px-3.5 py-2.5 font-bold">{{ r.eu }}</td>
-              <td class="tabular px-3.5 py-2.5">{{ r.length }}</td>
-              <td
-                class="px-3.5 py-2.5 font-semibold"
-                :class="!r.available ? 'text-muted-2' : picked === r.eu ? 'text-brand' : 'text-success'"
-              >
-                {{
-                  !r.available
-                    ? t("common.unavailable_notify")
-                    : picked === r.eu
-                      ? t("size_modal.available_selected")
-                      : t("common.available")
-                }}
-              </td>
-            </tr>
-          </tbody>
-        </table>
+        <size-table :rows="rows" :unit="store.sizeUnit" :picked="picked" @pick="picked = $event" />
 
         <p class="m-0 text-xs leading-normal text-muted">{{ t("size_modal.note") }}</p>
 

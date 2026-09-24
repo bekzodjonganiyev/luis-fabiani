@@ -6,10 +6,10 @@ const { logo } = usePalette()
 
 const payments = ["Payme", "Click", "Uzum", "Uzcard", "Humo", "Visa", "Mastercard"]
 const socials = computed(() => [
-  { label: "Telegram", href: config.public.telegramUrl },
-  { label: "Instagram", href: config.public.instagramUrl },
-  { label: "YouTube", href: config.public.youtubeUrl }
-])
+  { label: "Telegram", icon: "telegram", href: config.public.telegramUrl },
+  { label: "Instagram", icon: "instagram", href: config.public.instagramUrl },
+  { label: "YouTube", icon: "youtube", href: config.public.youtubeUrl }
+] as const)
 const columns = computed(() => [
   { key: "contact", title: t("footer.contact"), links: footer.value.contact },
   { key: "service", title: t("footer.service"), links: footer.value.service },
@@ -23,20 +23,20 @@ const columns = computed(() => [
     <div class="lf-container flex flex-col gap-7 pb-7 pt-9 md:gap-10 md:pb-8 md:pt-16">
       <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-[1.4fr_repeat(4,minmax(0,1fr))]">
         <div class="flex flex-col gap-4">
-          <img class="block h-16 w-auto md:h-[84px]" loading="lazy" :src="logo" :alt="t('nav.logo_alt')" />
+          <img class="block h-16 max-w-min md:h-[84px]" loading="lazy" :src="logo" :alt="t('nav.logo_alt')" />
           <p class="m-0 max-w-[30ch] text-sm leading-relaxed text-muted">{{ t("footer.tagline") }}</p>
           <div class="mt-2 flex flex-wrap gap-3">
-            <ui-button
+            <ui-icon-button
               v-for="s in socials"
               :key="s.label"
-              variant="line"
-              size="sm"
+              class="hover:text-accent-text"
+              :icon="s.icon"
+              :label="s.label"
+              :href="s.href"
+              bordered
               target="_blank"
               rel="noopener"
-              :href="s.href"
-            >
-              {{ s.label }}
-            </ui-button>
+            />
           </div>
         </div>
 

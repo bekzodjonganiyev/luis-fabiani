@@ -19,8 +19,6 @@ export default defineNuxtConfig({
     head: {
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
-      title: "Bosh sahifa",
-      titleTemplate: "%s | Luis Fabiani",
       link: [
         { rel: "icon", type: "image/png", href: "/favicon.png" },
         { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -64,7 +62,7 @@ export default defineNuxtConfig({
     langDir: "app/locales",
     restructureDir: "",
     defaultLocale: "uz",
-    strategy: "no_prefix",
+    strategy: "prefix",
     locales: [
       { code: "uz", language: "uz-Latn", file: "uz.json", name: "UZ" },
       { code: "ru", language: "ru-RU", file: "ru.json", name: "RU" },

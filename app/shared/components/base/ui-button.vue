@@ -90,6 +90,16 @@ const common = computed(() => ({
 .lf-btn :deep(.n-button__content) {
   gap: 10px;
 }
+/* naive ghost fonni hover'da ham shaffof qoldiradi (colorGhostHover ishlatilmaydi) — dizayn: brand fon + och matn.
+   Fokusda naive textColorGhostHover (och) ni oladi — shaffof fonda matn yo'qolmasin. */
+.lf-btn--line:not(.n-button--disabled):hover,
+.lf-btn--line:not(.n-button--disabled):active {
+  --n-color-hover: var(--lf-brand) !important;
+  --n-color-pressed: var(--lf-brand-hover) !important;
+}
+.lf-btn--line:not(:hover) {
+  --n-text-color-focus: var(--lf-brand) !important;
+}
 .lf-btn--line-bone {
   --n-border: 1px solid color-mix(in srgb, var(--lf-on-dark) 55%, transparent) !important;
 }

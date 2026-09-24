@@ -5,28 +5,28 @@ const tiles = computed(() => [
     id: "office",
     label: t("occasions.office"),
     photo: t("home.occasion_office_photo"),
-    src: "/images/linen.jpg",
+    src: "/images/home-office.jpg",
     cls: "col-span-2 row-span-1 lg:row-span-2"
   },
   {
     id: "wedding",
     label: t("occasions.wedding"),
     photo: t("home.occasion_wedding_photo"),
-    src: "/images/patent.jpg",
+    src: "/images/home-party.jpg",
     cls: ""
   },
   {
     id: "casual",
     label: t("occasions.casual"),
     photo: t("home.occasion_casual_photo"),
-    src: "/images/suede.jpg",
+    src: "/images/home-daily.jpg",
     cls: ""
   },
   {
     id: "winter",
     label: t("occasions.winter"),
     photo: t("home.occasion_winter_photo"),
-    src: "/images/wood.jpg",
+    src: "/images/home-winter.jpg",
     cls: "hidden lg:flex lg:col-span-2"
   }
 ])
@@ -48,7 +48,7 @@ const tiles = computed(() => [
         class="group flex items-end"
         tag="a"
         :class="tile.cls"
-        :to="`/catalog?occasion=${tile.id}`"
+        :to="`/collections/${tile.id}`"
         :src="tile.src"
         :caption="tile.photo"
       >
